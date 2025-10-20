@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Download, Shield, Award, Code } from "lucide-react";
 import Image from "next/image";
 
-
 export default function About() {
   return (
     <section className="relative py-16 bg-bgmodern" id="about">
@@ -16,7 +15,7 @@ export default function About() {
         >
           <h2 className="text-4xl font-tech text-accent font-bold mb-6">About Me</h2>
           <p className="text-lg text-textsecondary mb-4">
-            I'm a Cyber Security student passionate about ethical hacking, AI in security, and network defense. I've participated in the Smart India Hackathon and Cyber Suraksha Nukkad Natak through the CyberPeace Centre of Excellence, promoting digital safety awareness.
+            I&apos;m a Cyber Security student passionate about ethical hacking, AI in security, and network defense. I&apos;ve participated in the Smart India Hackathon and Cyber Suraksha Nukkad Natak through the CyberPeace Centre of Excellence, promoting digital safety awareness.
           </p>
           <ul className="mb-5">
             <li className="font-tech text-accent mb-2">
