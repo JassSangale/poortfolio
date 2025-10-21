@@ -16,6 +16,13 @@ const articles = [
     author: "Jass Sangale",
     subject: "Data Warehousing & Mining",
     desc: "Learn how to create an impactful digital portfolio using Google Sites and relate it to core data warehousing and mining concepts.",
+  },
+  {
+    slug: "dark-web-investigations",
+    title: "Dark Web Investigations: Tools, Techniques, and Challenges",
+    author: "Jass Sangale",
+    subject: "Cyber Crime Investigation & Digital Forensics",
+    desc: "Comprehensive insights into dark web investigations—including key tools, forensic techniques, and investigator challenges in cyberspace.",
   }
 ];
 
