@@ -23,6 +23,13 @@ const articles = [
     author: "Jass Sangale",
     subject: "Cyber Crime Investigation & Digital Forensics",
     desc: "Comprehensive insights into dark web investigations—including key tools, forensic techniques, and investigator challenges in cyberspace.",
+  },
+  {
+    slug: "ooad-data-warehousing-mining",
+    title: "Object-Oriented Analysis and Design (OOAD) in Data Warehousing and Mining",
+    author: "Jass Sangale",
+    subject: "Data Warehousing & Mining",
+    desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",
   }
 ];
 
