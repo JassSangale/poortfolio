@@ -3,25 +3,19 @@ import { motion } from "framer-motion";
 import { Youtube, ExternalLink } from "lucide-react";
 import Image from "next/image";
 
+
 export default function Videos() {
   // Array of videos with their details matching your article subjects
   const videos = [
     {
       id: 1,
       title: "Finite Automata in Text Search and Pattern Matching",
-      subject: "Data Warehousing & Mining",
+      subject: "Theory of Computation and Compiler Design",
       thumbnail: "/img/video-thumb-1.jpg", // Add your thumbnail images to public/img/
       youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1", // Replace with actual URL
       author: "Jass Sangale"
     },
-    {
-      id: 2,
-      title: "Creating a Google Website Portfolio",
-      subject: "Data Warehousing & Mining",
-      thumbnail: "/img/video-thumb-2.jpg",
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_2",
-      author: "Jass Sangale"
-    },
+    
     {
       id: 3,
       title: "Dark Web Investigations: Tools and Techniques",
@@ -33,12 +27,29 @@ export default function Videos() {
     {
       id: 4,
       title: "OOAD in Data Warehousing and Mining",
-      subject: "Data Warehousing & Mining",
+      subject: "Software Engineering and Project Management",
       thumbnail: "/img/video-thumb-4.jpg",
       youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_4",
       author: "Jass Sangale"
+    },
+    {
+      id: 5,
+      title: "Future of Cloud Security in Enterprises",
+      subject: "Cybersecurity Principles and Practices",
+      thumbnail: "/img/video-thumb-5.jpg",
+      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_5",
+      author: "Jass Sangale"
+    },
+    {
+      id: 6,
+      title: "Ethical Issues and Privacy Concerns in Data Mining",
+      subject: "Data Warehousing & Mining",
+      thumbnail: "/img/video-thumb-6.jpg",
+      youtubeUrl: "https://youtu.be/QckuZhU6H7s",
+      author: "Jass Sangale"
     }
   ];
+
 
   return (
     <section className="container mx-auto px-4 py-16" id="videos">
@@ -70,6 +81,7 @@ export default function Videos() {
                 </div>
               </div>
             </div>
+
 
             {/* Video Details */}
             <div className="p-6">
