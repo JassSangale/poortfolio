@@ -40,10 +40,10 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: i * 0.2 }}
-            whileHover={{ scale: 1.05, boxShadow: "0 0 20px #00F0FF" }}
-            className="glass bg-overlaymodern/70 rounded-2xl p-6 flex flex-col justify-between transition-transform duration-300"
+            whileHover={{ scale: 1.05, boxShadow: "0 0 20px #A64BFF" }}  // soft purple glow
+            className="glass article-card bg-overlaymodern/70 rounded-2xl p-6 flex flex-col justify-between transition-transform duration-300 hover-glow"
           >
-            <h3 className="font-tech text-xl text-accent font-bold mb-3 drop-shadow-accent">
+            <h3 className="font-tech text-xl text-accent font-bold mb-3">
               {p.name}
             </h3>
             <p className="text-textsecondary mb-4">{p.desc}</p>

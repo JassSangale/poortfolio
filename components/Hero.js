@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
+
 export default function Hero() {
   return (
     <section
@@ -33,6 +34,7 @@ export default function Hero() {
           <span className="absolute inset-0 rounded-full border-2 border-accent opacity-60 group-hover:opacity-100 animate-pulse pointer-events-none"></span>
         </motion.a>
 
+
         {/* Contact Me Button */}
         <motion.a
           whileHover={{
@@ -41,7 +43,7 @@ export default function Hero() {
           }}
           whileTap={{ scale: 0.98 }}
           href="#contact"
-          className="relative group font-tech px-8 py-3 rounded-full border-2 border-accent text-accent font-bold bg-gradient-to-r from-transparent via-accent/10 to-transparent transition-all hover:bg-accent hover:text-black shadow-[0_0_12px_#00F0FF] focus:outline-none"
+          className="relative group font-tech px-8 py-3 rounded-full border-2 border-accent text-accent font-bold bg-gradient-to-r from-transparent via-accent/10 to-transparent transition-all hover:bg-accent hover:text-white shadow-[0_0_12px_#00F0FF] focus:outline-none"
           style={{ overflow: "hidden" }}
         >
           <span className="block z-10 relative">Contact Me</span>

@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
+/* Tokens */
 :root {
-  --background: #101726;
-  --foreground: #FFFFFF;
+  --background: #000000;  /* black */
+  --foreground: #E6EEFF;  /* light text */
+  --accent-soft-violet: 200, 120, 255;     /* RGB for soft violet glow */
+  --border-soft-purple: 166, 75, 255;      /* RGB for soft purple border */
 }
 
+/* Theme mapping */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,153 +16,188 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #101726;
-    --foreground: #CBD9F1;
+    --background: #000000;  /* stay black in dark mode */
+    --foreground: #CFE8FF;
   }
 }
 
+/* Layout base */
+html, body, #__next, #root {
+  min-height: 100%;
+}
+
+/* Black background */
 body {
-  background: var(--background);
+  background: #000000;     /* solid black */
   color: var(--foreground);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+/* Optional: helper classes for stacking */
+.site-content { position: relative; z-index: 10; }   /* content above stars */
+.decorative-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;                /* below content, above body */
+  pointer-events: none;
+  opacity: 0.2;              /* lighter so stars show through */
 }
 
-::-webkit-scrollbar-track {
-  background: #1B2233;
+/* Optional: pure-CSS stars fallback (if you want, not required with Canvas) */
+.stars {
+  position: fixed;
+  inset: 0;
+  z-index: 0;                /* behind content */
+  pointer-events: none;
+  background-color: transparent;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.9) 50%, transparent 51%),
+    radial-gradient(1px 1px at 50px 80px, rgba(255,255,255,0.7) 50%, transparent 51%),
+    radial-gradient(2px 2px at 130px 120px, rgba(255,255,255,0.8) 50%, transparent 51%);
+  background-repeat: repeat;
+  background-size: 200px 200px, 300px 300px, 400px 400px;
+  animation: drift1 60s linear infinite, drift2 90s linear infinite, drift3 120s linear infinite;
 }
+@keyframes drift1 { from { background-position: 0 0, 0 0, 0 0; } to { background-position: 200px 200px, 0 0, 0 0; } }
+@keyframes drift2 { from { background-position: 0 0, 0 0, 0 0; } to { background-position: 0 0, 300px 300px, 0 0; } }
+@keyframes drift3 { from { background-position: 0 0, 0 0, 0 0; } to { background-position: 0 0, 0 0, 400px 400px; } }
 
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0f0f10; }
 ::-webkit-scrollbar-thumb {
-  background: #00F0FF;
+  background: linear-gradient(180deg, #00F0FF, #8800FF);
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #1EC8FF;
+  background: linear-gradient(180deg, #1EF5FF, #A64BFF);
 }
 
-/* Glassmorphism effect */
+/* Glassmorphism (soft purple borders) */
 .glass {
-  background: rgba(27, 34, 51, 0.4);
+  background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(0, 240, 255, 0.1);
+  border: 1px solid rgba(var(--border-soft-purple), 0.35);   /* softened purple */
+  box-shadow: 0 0 20px rgba(0, 255, 250, 0.05);
 }
-
 .glass-strong {
-  background: rgba(27, 34, 51, 0.7);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(0, 240, 255, 0.2);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(var(--border-soft-purple), 0.45);   /* stronger purple */
+  box-shadow: 0 0 40px rgba(0, 255, 250, 0.15);
 }
 
-/* Hover glow effect */
+/* Article/Project cards */
+.article-card {
+  border: 1px solid rgba(var(--border-soft-purple), 0.35);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);  /* subtle translucency */
+}
+.article-card:hover {
+  border-color: rgba(var(--border-soft-purple), 0.6);
+}
+
+/* Hover glow — SOFT VIOLET */
 .hover-glow:hover {
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
-  transform: translateY(-2px);
+  box-shadow:
+    0 0 25px rgba(var(--accent-soft-violet), 0.6),
+    0 0 60px rgba(var(--accent-soft-violet), 0.2);
+  transform: translateY(-2px) scale(1.01);
   transition: all 0.3s ease;
 }
 
-/* Text glow effect */
+/* Text glow */
 .drop-shadow-accent {
-  filter: drop-shadow(0 0 8px #00F0FF);
+  filter: drop-shadow(0 0 10px #00F0FF) drop-shadow(0 0 25px #8800FF);
 }
 
-/* Article content styling */
-.article-content {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
+/* Article content */
+.article-content { font-size: 1.1rem; line-height: 1.8; }
 
 .article-content h2 {
-  color: #00F0FF;
+  color: #00E5FF;
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: 'Orbitron', 'Poppins', 'Inter', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.7);
 }
-
 .article-content h3 {
-  color: #1EC8FF;
+  color: #A64BFF;  /* pairs with borders */
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
+  text-shadow: 0 0 8px rgba(166, 75, 255, 0.7);
 }
+.article-content p { margin-bottom: 1rem; color: #CFE8FF; }
 
-.article-content p {
-  margin-bottom: 1rem;
-  color: #CBD9F1;
-}
-
-.article-content ul, .article-content ol {
+.article-content ul,
+.article-content ol {
   margin-left: 1.5rem;
   margin-bottom: 1rem;
   list-style-position: outside;
-  color: #CBD9F1;
+  color: #CFE8FF;
 }
-
-.article-content ul {
-  list-style-type: disc;
-}
-
-.article-content ol {
-  list-style-type: decimal;
-}
+.article-content ul { list-style-type: disc; }
+.article-content ol { list-style-type: decimal; }
 
 .article-content li {
   margin-bottom: 0.5rem;
-  color: #CBD9F1;
+  color: #D1DDFE;
   padding-left: 0.25rem;
 }
 
 .article-content strong {
-  color: #00F0FF;
+  color: #00E5FF;
   font-weight: 600;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.8);
 }
-
 .article-content em {
   font-style: italic;
-  color: #1EC8FF;
+  color: #A64BFF;
+  text-shadow: 0 0 6px rgba(166, 75, 255, 0.8);
 }
 
 .article-content a {
-  color: #00F0FF;
+  color: #00E5FF;
   text-decoration: underline;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
-
+/* Link hover — SOFT VIOLET */
 .article-content a:hover {
-  color: #1EC8FF;
+  color: #C878FF;
+  text-shadow: 0 0 10px rgba(200, 120, 255, 0.7);
 }
 
 .article-content code {
-  background: rgba(27, 34, 51, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   font-family: 'Geist Mono', monospace;
-  color: #1EC8FF;
+  color: #A64BFF;
   font-size: 0.95rem;
+  box-shadow: inset 0 0 10px rgba(166, 75, 255, 0.25);
 }
-
 .article-content pre {
-  background: rgba(27, 34, 51, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   padding: 1rem;
   border-radius: 8px;
   overflow-x: auto;
   margin-bottom: 1rem;
-  border: 1px solid rgba(0, 240, 255, 0.2);
+  border: 1px solid rgba(var(--border-soft-purple), 0.35);  /* match borders */
+  box-shadow: 0 0 25px rgba(0, 255, 250, 0.1);
 }
-
 .article-content blockquote {
-  border-left: 4px solid #00F0FF;
+  border-left: 4px solid rgba(var(--border-soft-purple), 1);
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
-  color: #CBD9F1;
+  color: #CFE8FF;
+  background: rgba(166, 75, 255, 0.05);
+  box-shadow: inset 0 0 10px rgba(166, 75, 255, 0.1);
 }

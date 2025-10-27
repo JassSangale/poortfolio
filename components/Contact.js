@@ -1,6 +1,7 @@
 "use client";
 import { Github, Linkedin, Mail } from "lucide-react";
 
+
 export default function Contact() {
   return (
     <section className="container mx-auto px-4" id="contact">
@@ -31,7 +32,7 @@ export default function Contact() {
         />
         <button
           type="submit"
-          className="px-6 py-2 bg-accent text-black rounded-full font-bold transition-all hover:bg-accent-dark hover:scale-105 hover-glow"
+          className="px-6 py-2 bg-accent text-white rounded-full font-bold transition-all hover:bg-accent-dark hover:text-white hover:scale-105 hover-glow"
         >
           Send Message
         </button>

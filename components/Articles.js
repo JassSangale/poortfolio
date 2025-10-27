@@ -44,14 +44,17 @@ export default function Articles() {
           <motion.div
             key={a.slug}
             whileHover={{ scale: 1.03 }}
-            className="glass p-6 rounded-xl transition-all hover-glow hover-scale"
+            className="glass article-card p-6 rounded-xl transition-all hover-glow hover-scale"
           >
             <h3 className="font-tech text-xl text-accent mb-2">{a.title}</h3>
             <p className="text-textsecondary mb-2">{a.desc}</p>
             <div className="text-sm mb-2">
               <span className="font-tech text-accent">{a.subject}</span> | {a.author}
             </div>
-            <Link href={`/articles/${a.slug}`} className="text-accent font-bold hover:underline">
+            <Link
+              href={`/articles/${a.slug}`}
+              className="text-accent font-bold hover:underline"
+            >
               Read More →
             </Link>
           </motion.div>

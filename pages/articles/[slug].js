@@ -8,7 +8,7 @@ const articles = [
     author: "Jass Sangale",
     subject: "Data Warehousing & Mining",
     desc: "Exploring how finite automata theory applies to text processing and pattern matching.",
-    videoUrl: "https://www.youtube.com", // Replace with your actual video URL
+     // Replace with your actual video URL
     content: `
       <h2>Introduction</h2>
       <p>Finite automata represent a fundamental concept in computer science that bridges theoretical computation with practical applications in text processing. String matching algorithms build finite automata to scan text strings efficiently for pattern occurrences, making them essential for search engines, compilers, and data mining applications.</p>

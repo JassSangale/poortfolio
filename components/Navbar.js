@@ -2,22 +2,27 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
+
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
   { name: "Articles", href: "#articles" },
+  { name: "Videos", href: "#videos" },  // Added Videos link
   { name: "Contact", href: "#contact" },
 ];
+
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 30);
+
 
       // Determine active section
       const positions = navItems.map((item) => {
@@ -28,9 +33,11 @@ export default function Navbar() {
       setActive(idx !== -1 ? navItems[idx].href.slice(1) : "");
     };
 
+
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
 
   return (
     <motion.nav
@@ -49,6 +56,7 @@ export default function Navbar() {
         >
           JASS SANGALE
         </div>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
@@ -73,6 +81,7 @@ export default function Navbar() {
           ))}
         </div>
 
+
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
@@ -83,6 +92,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+
 
       {/* Mobile Menu */}
       {menuOpen && (
