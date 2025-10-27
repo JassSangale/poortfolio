@@ -2,12 +2,13 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+
 const articles = [
   {
     slug: "finite-automata-text-search",
     title: "Applications of Finite Automata in Text Search and Pattern Matching",
     author: "Jass Sangale",
-    subject: "Data Warehousing & Mining",
+    subject: "Theory of Computation and compiler design",
     desc: "Exploring how finite automata theory applies to text processing and pattern matching.",
   },
   {
@@ -28,10 +29,18 @@ const articles = [
     slug: "ooad-data-warehousing-mining",
     title: "Object-Oriented Analysis and Design (OOAD) in Data Warehousing and Mining",
     author: "Jass Sangale",
-    subject: "Data Warehousing & Mining",
+    subject: "Software Engineering and Project Management",
     desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",
+  },
+  {
+    slug: "future-cloud-security-enterprises",
+    title: "Future of Cloud Security in Enterprises",
+    author: "Jass Sangale",
+    subject: "Cyber Security Principles and Practices",
+    desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
   }
 ];
+
 
 export default function Articles() {
   return (

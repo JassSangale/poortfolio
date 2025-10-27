@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
+
 // Your articles data (keep as a local variable, NOT an export)
 const articles = [
   {
     slug: "finite-automata-text-search",
     title: "Applications of Finite Automata in Text Search and Pattern Matching",
     author: "Jass Sangale",
-    subject: "Data Warehousing & Mining",
+    subject: "Theory of Computation and compiler design",
     desc: "Exploring how finite automata theory applies to text processing and pattern matching.",
      // Replace with your actual video URL
     content: `
@@ -115,7 +116,7 @@ const articles = [
       </ul>
       <h2>Conclusion</h2>
       <p>
-        Creating a Google Sites portfolio helps you present your professional journey and technical skills. It’s your digital resume, personal data warehouse, and analytics showcase. For students and data professionals, it bridges theory and practice—making your learning journey visible, meaningful, and available to the world.
+        Creating a Google Sites portfolio helps you present your professional journey and technical skills. It's your digital resume, personal data warehouse, and analytics showcase. For students and data professionals, it bridges theory and practice—making your learning journey visible, meaningful, and available to the world.
         <br/>
         <br/>
         <strong>Ready to share your story?</strong> Start building your Google Sites portfolio today and let your data work for you.
@@ -131,7 +132,7 @@ const articles = [
     videoUrl: "",
     content: `
       <h2>Introduction</h2>
-      <p>In today’s cybersecurity landscape, the dark web remains both a hub for illicit activities and a critical focus for investigators pursuing digital evidence. For cyber crime and digital forensics professionals, uncovering criminal footprints on the dark web demands not only specialized tools but also advanced investigative techniques and a deep understanding of unique challenges created by anonymous networks, encrypted platforms, and ever-evolving technologies.</p>
+      <p>In today's cybersecurity landscape, the dark web remains both a hub for illicit activities and a critical focus for investigators pursuing digital evidence. For cyber crime and digital forensics professionals, uncovering criminal footprints on the dark web demands not only specialized tools but also advanced investigative techniques and a deep understanding of unique challenges created by anonymous networks, encrypted platforms, and ever-evolving technologies.</p>
       <h2>The Dark Web: An Overview</h2>
       <p>Distinguished from the surface and deep web, the dark web refers to hidden online spaces accessible only via anonymizing networks like Tor and I2P. Here, illegal marketplaces, forums, and communication channels foster activities such as drug trading, identity theft, ransomware operations, and child exploitation, while users conceal identities and locations through layered encryption and privacy technologies. For investigators, this environment poses significant obstacles to identification, evidence collection, and prosecution.</p>
       <h2>Essential Tools for Dark Web Investigations</h2>
@@ -172,13 +173,14 @@ const articles = [
   slug: "ooad-data-warehousing-mining",
   title: "Object-Oriented Analysis and Design (OOAD) in Data Warehousing and Mining",
   author: "Jass Sangale",
-  subject: "Data Warehousing & Mining",
+  subject: "Software Engineering and Project Management",
   desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",
   videoUrl: "", // Optionally add a relevant video tutorial URL
   content: `
     <h2>Introduction</h2>
-    <p>In today’s data-driven world, organizations depend heavily on large-scale data systems for decision-making, analysis, and business intelligence. As data grows exponentially, it becomes crucial to design systems that can efficiently handle storage, integration, and retrieval. This is where Object-Oriented Analysis and Design (OOAD) plays a significant role in Data Warehousing and Mining.</p>
+    <p>In today's data-driven world, organizations depend heavily on large-scale data systems for decision-making, analysis, and business intelligence. As data grows exponentially, it becomes crucial to design systems that can efficiently handle storage, integration, and retrieval. This is where Object-Oriented Analysis and Design (OOAD) plays a significant role in Data Warehousing and Mining.</p>
     <p>OOAD is a modern approach to software design that models a system using real-world entities, called objects, which encapsulate both data and behavior. When applied to data warehousing and mining, OOAD helps in structuring data storage systems, simplifying data relationships, and enabling efficient mining processes. It provides a clear, modular, and reusable framework that aligns with the complex nature of large-scale data systems.</p>
+
 
     <h2>Understanding OOAD</h2>
     <p>Object-Oriented Analysis and Design (OOAD) is a process of identifying and defining system requirements using objects and their interactions. It combines two stages:</p>
@@ -187,6 +189,7 @@ const articles = [
       <li><strong>Object-Oriented Design (OOD):</strong> Focuses on how those entities (objects) will interact to perform the required tasks efficiently.</li>
     </ul>
     <p>In data warehousing, this means defining how data is stored, related, and accessed. In data mining, it means modeling how patterns, clusters, or relationships are discovered and represented.</p>
+
 
     <h2>Core Concepts of OOAD</h2>
     <ul>
@@ -222,6 +225,7 @@ class Customer {
       </li>
     </ul>
 
+
     <h2>OOAD Phases in Data Warehousing and Mining</h2>
     <ul>
       <li><strong>Object-Oriented Analysis (OOA):</strong> Identify data sources and entities, define data flows, use use case diagrams to represent user interactions.</li>
@@ -229,6 +233,7 @@ class Customer {
       <li><strong>Implementation:</strong> Translate design into database structures and mining algorithms using languages like Java, Python, or C++ with frameworks such as Hadoop or Spark.</li>
       <li><strong>Testing and Optimization:</strong> Test data retrieval, query performance, and mining accuracy; optimize structures for access and analysis.</li>
     </ul>
+
 
     <h2>Example: Applying OOAD in a Retail Data Warehouse</h2>
     <p>
@@ -253,6 +258,7 @@ class Customer {
       Mining can be performed on Customer to find purchasing patterns or on Product to identify seasonal trends.
     </p>
 
+
     <h2>Real-Life Applications of OOAD in Data Systems</h2>
     <ul>
       <li><strong>Data Modeling:</strong> Classes map to data warehouse schema tables or dimensions.</li>
@@ -261,6 +267,7 @@ class Customer {
       <li><strong>Business Intelligence Dashboards:</strong> OOAD organizes backend logic for analytics tools by defining relationships for data retrieval.</li>
       <li><strong>Big Data Systems:</strong> OOAD principles guide creation of reusable modules for distributed processing in Hadoop/Spark environments.</li>
     </ul>
+
 
     <h2>Importance of OOAD in Data Warehousing & Mining</h2>
     <ul>
@@ -271,14 +278,69 @@ class Customer {
       <li><strong>Efficiency:</strong> Object models reduce redundancy and improve query/mining performance.</li>
     </ul>
 
+
     <h2>Conclusion</h2>
     <p>
       Object-Oriented Analysis and Design (OOAD) has become essential in developing efficient, modular, and scalable data warehousing and mining systems. OOAD bridges the gap between data architecture and analytical processing, ensuring massive datasets can be organized and mined for insights. Integrating OOAD means adaptability, precision, and long-term sustainability for modern data engineering and analytics.
     </p>
   `
+},
+{
+  slug: "future-cloud-security-enterprises",
+  title: "Future of Cloud Security in Enterprises",
+  author: "Jass Sangale",
+  subject: "Cybersecurity Principles and Practices",
+  desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
+  videoUrl: "", // Add your video URL here if needed
+  content: `
+    <h2>Introduction</h2>
+    <p>Cloud computing has revolutionized the way organizations operate. From data storage to software deployment, cloud services have enabled enterprises to be more agile, scalable, and cost-effective. However, this digital transformation also introduces new cybersecurity challenges that demand attention. As we look to the future, cloud security will become a critical pillar for business continuity, data protection, and trust in enterprise environments.</p>
+    
+    <h2>The Rise of Cloud Adoption</h2>
+    <p>In recent years, enterprises have rapidly adopted cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). The flexibility to scale resources, support remote work, and deploy global applications has made the cloud indispensable. However, this widespread adoption also expands the attack surface, increasing the potential for data breaches, misconfigurations, and insider threats.</p>
+    <p>According to industry reports, nearly 80% of enterprises now use a hybrid or multi-cloud environment. Managing security across different platforms and configurations has become one of the biggest challenges for IT teams.</p>
+    
+    <h2>Emerging Threat Landscape</h2>
+    <p>Cybercriminals are constantly developing sophisticated attack techniques targeting cloud systems. Common threats include:</p>
+    <ul>
+      <li>Data breaches due to misconfigured storage buckets.</li>
+      <li>Ransomware attacks exploiting cloud backups.</li>
+      <li>API vulnerabilities in web applications.</li>
+      <li>Insider threats, both intentional and accidental.</li>
+    </ul>
+    <p>These threats highlight the need for enterprises to go beyond traditional firewalls and adopt a comprehensive, intelligence-driven approach to cloud security.</p>
+    
+    <h2>The Shift Toward Zero Trust Architecture (ZTA)</h2>
+    <p>One of the most promising models shaping the future of cloud security is Zero Trust Architecture. Unlike traditional security models that rely on perimeter defenses, Zero Trust assumes that no user or device—inside or outside the network—can be trusted by default. Every access request is continuously verified using identity, device health, and behavior analytics.</p>
+    <p>Enterprises implementing ZTA benefit from reduced attack surfaces, stronger access control, and continuous monitoring, ensuring that even compromised accounts cannot cause significant damage.</p>
+    
+    <h2>Role of Artificial Intelligence and Automation</h2>
+    <p>Artificial Intelligence (AI) and Machine Learning (ML) are transforming cloud security operations. With massive volumes of data generated every second, manual monitoring is no longer sufficient. AI-powered tools can detect anomalous patterns, predict potential breaches, and automatically respond to incidents in real-time.</p>
+    <p>For example, Security Information and Event Management (SIEM) systems powered by AI can correlate events across multiple sources, offering faster incident detection and response. Automation further enhances efficiency by patching vulnerabilities or isolating affected instances automatically.</p>
+    
+    <h2>Confidential Computing and Data Privacy</h2>
+    <p>Data protection remains a major concern in the cloud. Future innovations like confidential computing aim to secure data even while it is being processed. This technology encrypts data in memory, ensuring that sensitive information remains protected from unauthorized access, even from cloud administrators.</p>
+    <p>Similarly, homomorphic encryption allows computations on encrypted data without decrypting it, maintaining privacy during data analysis. Enterprises handling sensitive data—such as financial institutions or healthcare providers—are increasingly adopting these technologies.</p>
+    
+    <h2>Strengthening Compliance and Governance</h2>
+    <p>As cloud usage grows, regulatory compliance becomes more complex. Organizations must adhere to frameworks such as GDPR, HIPAA, ISO/IEC 27017, and NIST standards. Future cloud security strategies will include automated compliance monitoring, ensuring that policies and configurations continuously meet legal and security requirements.</p>
+    <p>Moreover, the shared responsibility model will remain central to cloud security—cloud providers secure the infrastructure, while enterprises must secure their applications, data, and user access. Understanding this division is key to preventing security lapses.</p>
+    
+    <h2>The Power of Blockchain in Cloud Security</h2>
+    <p>Blockchain technology is gaining attention as a tool for improving data integrity and transparency. By storing logs and access records in an immutable ledger, blockchain ensures that security events cannot be tampered with. In the near future, enterprises may leverage blockchain-based systems for identity verification, audit trails, and secure transactions in the cloud.</p>
+    
+    <h2>Building a Security-First Culture</h2>
+    <p>Technology alone cannot guarantee security. The human factor plays a significant role in protecting enterprise assets. Future cloud strategies will emphasize employee training, cyber hygiene, and continuous learning. A security-first mindset helps organizations identify risks early and respond proactively.</p>
+    
+    <h2>Conclusion</h2>
+    <p>The future of cloud security in enterprises lies in adaptive, intelligent, and resilient defense mechanisms. With Zero Trust, AI-driven monitoring, confidential computing, and blockchain, organizations can stay ahead of evolving cyber threats.</p>
+    <p>Enterprises that embrace these innovations, strengthen compliance, and invest in a skilled cybersecurity workforce will not only safeguard their data but also earn the trust of customers and stakeholders. In a world where digital transformation is inevitable, secure cloud adoption is the foundation for sustainable business growth.</p>
+  `
 }
 
+
 ];
+
 
 // Required for dynamic routing in Next.js
 export async function getStaticPaths() {
@@ -288,6 +350,7 @@ export async function getStaticPaths() {
   };
 }
 
+
 export async function getStaticProps({ params }) {
   const article = articles.find(a => a.slug === params.slug);
   return {
@@ -295,18 +358,20 @@ export async function getStaticProps({ params }) {
   };
 }
 
+
 // Default export must be a React component!
 export default function ArticlePage({ article }) {
   if (!article) {
     return (
-      <div style={{ minHeight: '100vh', background: '#101726', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#CBD9F1' }}>
+      <div style={{ minHeight: '100vh', background: '#000000', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FFFFFF' }}>
         Article not found
       </div>
     );
   }
 
+
   return (
-    <div style={{ minHeight: '100vh', background: '#101726', paddingTop: '5rem', paddingBottom: '3rem' }}>
+    <div style={{ minHeight: '100vh', background: '#000000', paddingTop: '5rem', paddingBottom: '3rem' }}>
       <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
           {/* Article Header */}
@@ -325,7 +390,7 @@ export default function ArticlePage({ article }) {
             gap: '1rem',
             fontSize: '0.875rem',
             marginBottom: '1.5rem',
-            color: '#CBD9F1'
+            color: '#FFFFFF'
           }}>
             <span style={{ fontFamily: 'Orbitron, sans-serif', color: '#00F0FF' }}>{article.subject}</span>
             <span>•</span>
@@ -333,7 +398,7 @@ export default function ArticlePage({ article }) {
           </div>
           <p style={{
             fontSize: '1.125rem',
-            color: '#CBD9F1',
+            color: '#FFFFFF',
             marginBottom: '2rem',
             fontStyle: 'italic'
           }}>
@@ -370,11 +435,11 @@ export default function ArticlePage({ article }) {
             style={{
               fontSize: '1.1rem',
               lineHeight: '1.8',
-              color: '#CBD9F1',
+              color: '#FFFFFF',
               marginBottom: '3rem'
             }}
           />
-          {/* Back Button */}
+          {/* Back Button - Soft Purple */}
           <Link
             href="/#articles"
             style={{
@@ -382,13 +447,15 @@ export default function ArticlePage({ article }) {
               alignItems: 'center',
               gap: '0.5rem',
               padding: '0.75rem 1.5rem',
-              background: '#00F0FF',
-              color: '#101726',
+              background: '#B794F6',
+              color: '#000000',
               fontWeight: 'bold',
               borderRadius: '9999px',
               textDecoration: 'none',
               transition: 'all 0.3s ease'
             }}
+            onMouseEnter={(e) => e.target.style.background = '#9F7AEA'}
+            onMouseLeave={(e) => e.target.style.background = '#B794F6'}
           >
             ← Back to Articles
           </Link>
@@ -404,21 +471,22 @@ export default function ArticlePage({ article }) {
             font-family: 'Orbitron', 'Poppins', sans-serif;
           }
           .article-content h3 {
-            color: #1EC8FF;
+            color: #00F0FF;
             font-size: 1.4rem;
             font-weight: 600;
             margin-top: 2rem;
             margin-bottom: 0.75rem;
+            opacity: 0.9;
           }
           .article-content p {
             margin-bottom: 1.25rem;
-            color: #CBD9F1;
+            color: #FFFFFF;
             line-height: 1.8;
           }
           .article-content ul, .article-content ol {
             margin-left: 2rem;
             margin-bottom: 1.5rem;
-            color: #CBD9F1;
+            color: #FFFFFF;
           }
           .article-content ul {
             list-style-type: disc;
@@ -428,7 +496,7 @@ export default function ArticlePage({ article }) {
           }
           .article-content li {
             margin-bottom: 0.75rem;
-            color: #CBD9F1;
+            color: #FFFFFF;
             line-height: 1.7;
           }
           .article-content strong {
@@ -437,14 +505,28 @@ export default function ArticlePage({ article }) {
           }
           .article-content em {
             font-style: italic;
-            color: #1EC8FF;
+            color: #00F0FF;
+            opacity: 0.8;
           }
           .article-content a {
             color: #00F0FF;
             text-decoration: underline;
           }
           .article-content a:hover {
-            color: #1EC8FF;
+            opacity: 0.8;
+          }
+          .article-content pre {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin: 1rem 0;
+            border-left: 3px solid #00F0FF;
+            color: #FFFFFF;
+          }
+          .article-content code {
+            color: #00F0FF;
+            font-family: 'Courier New', monospace;
           }
         `}</style>
       </section>
