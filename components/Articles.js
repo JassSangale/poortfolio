@@ -12,12 +12,12 @@ const articles = [
     desc: "Exploring how finite automata theory applies to text processing and pattern matching.",
   },
   {
-    slug: "google-sites-data-portfolio",
-    title: "Creating a Personalized Google Website Portfolio",
-    author: "Jass Sangale",
-    subject: "Data Warehousing & Mining",
-    desc: "Learn how to create an impactful digital portfolio using Google Sites and relate it to core data warehousing and mining concepts.",
-  },
+  slug: "ethical-privacy-data-mining",
+  title: "Ethical Issues and Privacy Concerns in Data Mining",
+  author: "Jass Sangale",
+  subject: "Data Warehousing & Mining",
+  desc: "Balancing data mining benefits with ethical responsibility and privacy protection in today's digital era.",
+},
   {
     slug: "dark-web-investigations",
     title: "Dark Web Investigations: Tools, Techniques, and Challenges",
