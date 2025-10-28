@@ -30,7 +30,7 @@ const articles = [
     title: "Object-Oriented Analysis and Design",
     author: "Jass Sangale",
     subject: "Software Engineering and Project Management",
-    desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",
+    desc: "Explore how OOAD principles streamline the design,  modular, and scalable.",
   },
   {
     slug: "future-cloud-security-enterprises",
