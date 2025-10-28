@@ -45,7 +45,7 @@ export default function Videos() {
       title: "Dark Web Investigations: Tools and Techniques",
       subject: "Cyber Crime Investigation & Digital Forensics",
       thumbnail: "/img/video-thumb-3.jpg",
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3",
+      youtubeUrl: "https://drive.google.com/file/d/1EcTJmlFHbzjvXWq0uuAg8Wrg2usp4QnF/view?usp=drive_link",
       author: "Jass Sangale"
     }
   ];
