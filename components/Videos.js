@@ -29,7 +29,7 @@ export default function Videos() {
       title: "Object-Oriented Analysis and Design",
       subject: "Software Engineering and Project Management",
       thumbnail: "/img/video-thumb-4.jpg",
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_4",
+      youtubeUrl: "https://drive.google.com/file/d/19iAz77iTs14u6mSv5KJr-ggncvSpDnvd/view",
       author: "Jass Sangale"
     },
     {
