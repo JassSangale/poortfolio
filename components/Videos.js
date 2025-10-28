@@ -12,7 +12,7 @@ export default function Videos() {
       title: "Finite Automata in Text Search and Pattern Matching",
       subject: "Theory of Computation and Compiler Design",
       thumbnail: "/img/video-thumb-1.jpg", // Add your thumbnail images to public/img/
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1", // Replace with actual URL
+      youtubeUrl: "https://youtu.be/Jor-4AE0QXo", // Replace with actual URL
       author: "Jass Sangale"
     },
     
