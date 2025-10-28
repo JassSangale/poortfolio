@@ -18,10 +18,10 @@ export default function Videos() {
     
     {
       id: 3,
-      title: "Dark Web Investigations: Tools and Techniques",
-      subject: "Cyber Crime Investigation & Digital Forensics",
-      thumbnail: "/img/video-thumb-3.jpg",
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3",
+    title: "Ethical Issues and Privacy Concerns in Data Mining",
+      subject: "Data Warehousing & Mining",
+      thumbnail: "/img/video-thumb-6.jpg",
+      youtubeUrl: "https://youtu.be/QckuZhU6H7s",
       author: "Jass Sangale"
     },
     {
@@ -42,10 +42,10 @@ export default function Videos() {
     },
     {
       id: 6,
-      title: "Ethical Issues and Privacy Concerns in Data Mining",
-      subject: "Data Warehousing & Mining",
-      thumbnail: "/img/video-thumb-6.jpg",
-      youtubeUrl: "https://youtu.be/QckuZhU6H7s",
+      title: "Dark Web Investigations: Tools and Techniques",
+      subject: "Cyber Crime Investigation & Digital Forensics",
+      thumbnail: "/img/video-thumb-3.jpg",
+      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_3",
       author: "Jass Sangale"
     }
   ];
