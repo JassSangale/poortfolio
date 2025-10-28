@@ -26,7 +26,7 @@ export default function Videos() {
     },
     {
       id: 4,
-      title: "OOAD in Data Warehousing and Mining",
+      title: "Object-Oriented Analysis and Design",
       subject: "Software Engineering and Project Management",
       thumbnail: "/img/video-thumb-4.jpg",
       youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_4",
@@ -37,7 +37,7 @@ export default function Videos() {
       title: "Future of Cloud Security in Enterprises",
       subject: "Cybersecurity Principles and Practices",
       thumbnail: "/img/video-thumb-5.jpg",
-      youtubeUrl: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_5",
+      youtubeUrl: "https://drive.google.com/file/d/1MDVDwIp_94uh4yG4j7BnRfT3UtWh9r_N/view",
       author: "Jass Sangale"
     },
     {

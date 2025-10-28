@@ -27,7 +27,7 @@ const articles = [
   },
   {
     slug: "ooad-data-warehousing-mining",
-    title: "Object-Oriented Analysis and Design (OOAD) in Data Warehousing and Mining",
+    title: "Object-Oriented Analysis and Design",
     author: "Jass Sangale",
     subject: "Software Engineering and Project Management",
     desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",

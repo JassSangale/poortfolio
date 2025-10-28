@@ -39,90 +39,7 @@ const articles = [
       <p>The reliability and efficiency of finite automata make them superior for string matching and search tasks in various software systems. Their theoretical foundation provides a robust framework for solving practical problems in text processing, making them an essential topic for computer science students and professionals working with data mining and pattern recognition.</p>
     `
   },
-  {
-    slug: "google-sites-data-portfolio",
-    title: "Creating a Personalized Google Website Portfolio",
-    author: "Jass Sangale",
-    subject: "Data Warehousing & Mining",
-    desc: "Learn how to create an impactful digital portfolio using Google Sites and relate it to core data warehousing and mining concepts.",
-    videoUrl: "", // Optionally add your tutorial video URL here
-    content: `
-      <h2>Introduction</h2>
-      <p>
-        In the digital age, having an online presence is essential for students, data enthusiasts, and professionals. A portfolio website acts as your digital identity, presenting your skills, achievements, and projects globally in a structured and appealing way.
-        Google Sites is a free, no-code, user-friendly tool that empowers you to build a personalized digital portfolio reflecting your journey and technical skills.
-      </p>
-      <h2>What is Google Sites?</h2>
-      <p>
-        Google Sites is part of Google Workspace—offering a drag-and-drop interface to design professional websites without coding. Seamlessly integrated with Google Docs, Sheets, Slides, Forms, and Drive, it enables direct embedding of documents, dashboards, and analytics.
-      </p>
-      <p>
-        For Data Warehousing & Mining students, such integration is invaluable: you can showcase interactive analytics, dashboards, and project data easily on your site.
-      </p>
-      <h2>Why Create a Google Portfolio Website?</h2>
-      <ul>
-        <li><strong>No coding required:</strong> Quickly build and customize using ready templates and components.</li>
-        <li><strong>Centralized info storage:</strong> Store projects, reports, certifications, and experiences—just like a data warehouse organizes business data.</li>
-        <li><strong>Data integration:</strong> Embed Google Sheets dashboards and interactive reports to reflect data mining skills.</li>
-        <li><strong>Professional appearance:</strong> Clean design and structure for recruiters and faculty.</li>
-        <li><strong>Easy sharing & accessibility:</strong> One URL for your LinkedIn, resume, or GitHub profile.</li>
-        <li><strong>Security & updates:</strong> Controlled access and instant updates via Google Drive.</li>
-      </ul>
-      <p>
-        Your portfolio website functions as a personal data warehouse—organizing and presenting key professional data in an efficient, accessible format.
-      </p>
-      <h2>How to Build Your Portfolio: Step-by-Step</h2>
-      <h3>Step 1: Access Google Sites</h3>
-      <p>
-        Go to <a href="https://sites.google.com">Google Sites</a>, sign in, and start a new blank site or use a template.
-      </p>
-      <h3>Step 2: Build the Home Page</h3>
-      <p>
-        Give a quick overview—who you are, professional title, your photo, and a brief intro about academic background, interests, and goals.
-      </p>
-      <h3>Step 3: Add Key Pages</h3>
-      <ul>
-        <li><strong>About Me:</strong> Education details, interests, and skills related to Data Warehousing & Mining</li>
-        <li><strong>Projects:</strong> Showcase academic/personal projects, descriptions, technologies, screenshots, and links to repositories</li>
-        <li><strong>Certifications:</strong> List certifications (Google Data Analytics, SQL, Python, ML, etc.)</li>
-        <li><strong>Resume:</strong> Embed your resume directly from Google Drive for auto-updates</li>
-        <li><strong>Contact:</strong> Professional contact info, LinkedIn/GitHub links</li>
-      </ul>
-      <h3>Step 4: Customize Your Design</h3>
-      <p>
-        Choose a clean, minimal theme for easy navigation. Use professional colors (blue, gray, white) and consistent fonts. Add a logo or banner if available.
-      </p>
-      <h3>Step 5: Embed Analytical Content</h3>
-      <p>
-        Demonstrate Data Warehousing & Mining concepts by embedding:
-        <ul>
-          <li>Google Sheets dashboards (project summaries, KPIs)</li>
-          <li>Google Data Studio/Looker Studio reports (pattern visualization, analytics)</li>
-          <li>Charts/graphs from data mining findings</li>
-        </ul>
-        This shows you can turn raw data into actionable knowledge—the heart of data mining.
-      </p>
-      <h3>Step 6: Publish and Share</h3>
-      <p>
-        Click <strong>Publish</strong>, choose a unique URL (e.g., <a href="https://sites.google.com/view/jasssangale">your Google Sites link</a>), and showcase it on LinkedIn, your resume, and email signature.
-      </p>
-      <h2>Connecting Portfolio to Data Warehousing & Mining Concepts</h2>
-      <ul>
-        <li><strong>Data Collection:</strong> Gather your achievements, skills, and experiences—like collecting data from various sources.</li>
-        <li><strong>Data Cleaning & Organization:</strong> Structure your information—removing duplicates, formatting, and categorizing.</li>
-        <li><strong>Data Integration:</strong> Combine multiple elements (projects, certifications, analytics) into one site.</li>
-        <li><strong>Data Presentation:</strong> Use visuals, dashboards, and structured pages for clear insights.</li>
-        <li><strong>Knowledge Discovery:</strong> Highlight results and insights, turning data into professional value.</li>
-      </ul>
-      <h2>Conclusion</h2>
-      <p>
-        Creating a Google Sites portfolio helps you present your professional journey and technical skills. It's your digital resume, personal data warehouse, and analytics showcase. For students and data professionals, it bridges theory and practice—making your learning journey visible, meaningful, and available to the world.
-        <br/>
-        <br/>
-        <strong>Ready to share your story?</strong> Start building your Google Sites portfolio today and let your data work for you.
-      </p>
-    `
-  },
+  
   {
     slug: "dark-web-investigations",
     title: "Dark Web Investigations: Tools, Techniques, and Challenges",
@@ -171,118 +88,87 @@ const articles = [
   },
   {
   slug: "ooad-data-warehousing-mining",
-  title: "Object-Oriented Analysis and Design (OOAD) in Data Warehousing and Mining",
+  title: "Object-Oriented Analysis and Design",
   author: "Jass Sangale",
   subject: "Software Engineering and Project Management",
   desc: "Explore how OOAD principles streamline the design, modeling, and mining of large-scale data systems—making data warehousing robust, modular, and scalable.",
   videoUrl: "", // Optionally add a relevant video tutorial URL
   content: `
-    <h2>Introduction</h2>
-    <p>In today's data-driven world, organizations depend heavily on large-scale data systems for decision-making, analysis, and business intelligence. As data grows exponentially, it becomes crucial to design systems that can efficiently handle storage, integration, and retrieval. This is where Object-Oriented Analysis and Design (OOAD) plays a significant role in Data Warehousing and Mining.</p>
-    <p>OOAD is a modern approach to software design that models a system using real-world entities, called objects, which encapsulate both data and behavior. When applied to data warehousing and mining, OOAD helps in structuring data storage systems, simplifying data relationships, and enabling efficient mining processes. It provides a clear, modular, and reusable framework that aligns with the complex nature of large-scale data systems.</p>
+   <h2>Introduction</h2>
+<p>
+In the modern software industry, data-driven systems are central to decision-making, analytics, and business intelligence. As organizations handle massive data volumes, adopting systematic engineering methods is essential for building reliable and scalable systems. This is where <strong>Object-Oriented Analysis and Design (OOAD)</strong> plays a crucial role in <strong>Data Warehousing and Mining</strong>.
+</p>
+<p>
+From a <strong>Software Engineering and Project Management</strong> perspective, OOAD provides a structured methodology for planning, designing, implementing, and maintaining complex data systems. By modeling real-world entities as objects, OOAD simplifies data management, enhances reusability, and ensures long-term scalability—key objectives in software project management.
+</p>
 
+<h2>Understanding OOAD</h2>
+<p>
+<strong>Object-Oriented Analysis and Design (OOAD)</strong> is a disciplined approach to software development that identifies requirements and translates them into modular, maintainable system designs using objects and their interactions.
+</p>
+<ul>
+  <li><strong>Object-Oriented Analysis (OOA):</strong> Focuses on understanding the problem domain and identifying key entities, attributes, and relationships. This aligns with the requirement analysis phase of project management.</li>
+  <li><strong>Object-Oriented Design (OOD):</strong> Defines how those entities interact to fulfill system objectives. This corresponds to the design and architecture stages of software engineering.</li>
+</ul>
+<p>
+In <strong>Data Warehousing</strong>, OOAD defines how data is structured, related, and accessed. In <strong>Data Mining</strong>, it models how algorithms, patterns, and associations are discovered and represented efficiently.
+</p>
 
-    <h2>Understanding OOAD</h2>
-    <p>Object-Oriented Analysis and Design (OOAD) is a process of identifying and defining system requirements using objects and their interactions. It combines two stages:</p>
-    <ul>
-      <li><strong>Object-Oriented Analysis (OOA):</strong> Focuses on understanding the problem and identifying entities, their attributes, and relationships.</li>
-      <li><strong>Object-Oriented Design (OOD):</strong> Focuses on how those entities (objects) will interact to perform the required tasks efficiently.</li>
-    </ul>
-    <p>In data warehousing, this means defining how data is stored, related, and accessed. In data mining, it means modeling how patterns, clusters, or relationships are discovered and represented.</p>
+<h2>Core Concepts of OOAD</h2>
+<ul>
+  <li><strong>Objects and Classes:</strong> Represent real-world entities such as Customer, Product, or Transaction. Each class defines properties and behaviors, ensuring consistent schema design and maintainability.</li>
+  <li><strong>Encapsulation:</strong> Protects data integrity by restricting direct access. In project management, this ensures controlled data flow, reducing errors and enhancing reliability.</li>
+  <li><strong>Inheritance:</strong> Promotes reusability and efficiency. For example, a <em>PremiumCustomer</em> class may inherit from <em>Customer</em>, saving development time and effort.</li>
+  <li><strong>Polymorphism:</strong> Enables flexible implementations for different datasets or system components, improving adaptability and scalability.</li>
+  <li><strong>Abstraction:</strong> Focuses on essential system features, reducing complexity in both design and project execution.</li>
+</ul>
 
+<h2>OOAD Phases in Data Warehousing and Mining Projects</h2>
+<ul>
+  <li><strong>Object-Oriented Analysis (OOA):</strong> Define project goals, identify data sources, and use diagrams to represent user requirements and workflows.</li>
+  <li><strong>Object-Oriented Design (OOD):</strong> Develop class structures, attributes, and methods to represent data warehouse entities and mining processes.</li>
+  <li><strong>Implementation:</strong> Translate design into functional systems using languages like Java, Python, or C++ and frameworks such as Hadoop or Spark.</li>
+  <li><strong>Testing & Quality Assurance:</strong> Validate data accuracy, query performance, and mining outputs. Ensures project reliability and efficiency.</li>
+  <li><strong>Maintenance & Scalability Planning:</strong> Manage updates, optimize performance, and ensure long-term adaptability of data systems.</li>
+</ul>
 
-    <h2>Core Concepts of OOAD</h2>
-    <ul>
-      <li>
-        <strong>Objects and Classes:</strong><br/>
-        An object represents a real-world entity—such as a Customer, Product, or Transaction.<br/>
-        A class is a blueprint for objects, defining shared properties and behaviors.<br/>
-        <pre>
-class Customer {
-    int customerID;
-    String name;
-    double totalPurchase;
-    void displayData() { ... }
-}
-        </pre>
-        In a data warehouse, each class can correspond to a table, and each object represents a record.
-      </li>
-      <li>
-        <strong>Encapsulation:</strong><br/>
-        Ensures data integrity by restricting direct access to data. In warehousing, similar to data abstraction, users access data through defined views rather than raw tables.
-      </li>
-      <li>
-        <strong>Inheritance:</strong><br/>
-        Promotes reusability. A class <em>PremiumCustomer</em> may inherit from <em>Customer</em>—mirroring data warehouse schemas that reuse and extend dimensions.
-      </li>
-      <li>
-        <strong>Polymorphism:</strong><br/>
-        Allows the same function to behave differently for different data types. In data mining, this can relate to using the same mining algorithm for different datasets.
-      </li>
-      <li>
-        <strong>Abstraction:</strong><br/>
-        Focuses on essential system features, creating data models that emphasize analytical relationships.
-      </li>
-    </ul>
+<h2>Example: Applying OOAD in a Retail Data Warehouse</h2>
+<p>
+A retail organization may define objects such as Customer, Product, Sales, Store, and Region. Relationships can be established to represent business logic—for example, a customer purchases multiple products, and each product is sold across several stores. Using OOAD, the project team can design a modular warehouse system that supports data analysis, sales tracking, and predictive mining to identify customer buying patterns or seasonal trends.
+</p>
 
+<h2>Real-Life Applications of OOAD in Data Systems</h2>
+<ul>
+  <li><strong>Data Modeling:</strong> Classes map to warehouse schema tables, improving consistency and maintainability.</li>
+  <li><strong>ETL Automation:</strong> Object-oriented components streamline data extraction, transformation, and loading processes.</li>
+  <li><strong>Data Mining Algorithms:</strong> OOAD supports modular implementation of mining techniques like classification and clustering.</li>
+  <li><strong>Business Intelligence Tools:</strong> Object models simplify data retrieval and reporting in analytical dashboards.</li>
+  <li><strong>Big Data Engineering:</strong> OOAD enhances scalability and reusability for distributed processing in Hadoop or Spark environments.</li>
+</ul>
 
-    <h2>OOAD Phases in Data Warehousing and Mining</h2>
-    <ul>
-      <li><strong>Object-Oriented Analysis (OOA):</strong> Identify data sources and entities, define data flows, use use case diagrams to represent user interactions.</li>
-      <li><strong>Object-Oriented Design (OOD):</strong> Define class structures, attributes, and methods to represent warehouse tables and mining algorithms; use class and sequence diagrams.</li>
-      <li><strong>Implementation:</strong> Translate design into database structures and mining algorithms using languages like Java, Python, or C++ with frameworks such as Hadoop or Spark.</li>
-      <li><strong>Testing and Optimization:</strong> Test data retrieval, query performance, and mining accuracy; optimize structures for access and analysis.</li>
-    </ul>
+<h2>Project Management Perspective</h2>
+<ul>
+  <li><strong>Planning:</strong> OOAD aids in requirement gathering and system scope definition.</li>
+  <li><strong>Execution:</strong> Object models provide a clear blueprint for development and team coordination.</li>
+  <li><strong>Monitoring:</strong> Modular design simplifies tracking, quality control, and progress evaluation.</li>
+  <li><strong>Quality Control:</strong> OOAD enforces structured documentation, testing, and version control throughout the project lifecycle.</li>
+  <li><strong>Cost & Time Efficiency:</strong> Reusability and modularity reduce rework, aligning with Agile and iterative project methodologies.</li>
+</ul>
 
+<h2>Importance of OOAD in Software Engineering Projects</h2>
+<ul>
+  <li><strong>Reusability:</strong> Encourages reuse of modules across multiple systems, saving time and resources.</li>
+  <li><strong>Maintainability:</strong> Object-oriented designs simplify system upgrades and error handling.</li>
+  <li><strong>Scalability:</strong> Modular architecture supports increasing data and system complexity.</li>
+  <li><strong>Consistency & Quality:</strong> Unified design standards ensure stability and reduce defects.</li>
+  <li><strong>Efficiency:</strong> OOAD minimizes redundancy, improves data handling, and accelerates project delivery.</li>
+</ul>
 
-    <h2>Example: Applying OOAD in a Retail Data Warehouse</h2>
-    <p>
-      <strong>Objects:</strong> Customer, Product, Sales, Store, Region<br/>
-      <strong>Relationships:</strong><br/>
-      A Customer can purchase many Products.<br/>
-      A Product can be sold across multiple Stores.<br/>
-      <strong>Simplified Class Diagram:</strong>
-    </p>
-    <pre>
-+-------------------+          +-------------------+
-|     Customer      |          |      Product      |
-+-------------------+          +-------------------+
-| - customerID      |          | - productID       |
-| - name            |          | - name            |
-| - totalPurchase   |          | - category        |
-+-------------------+          +-------------------+
-| + viewHistory()   |          | + calculateSales()|
-+-------------------+          +-------------------+
-    </pre>
-    <p>
-      Mining can be performed on Customer to find purchasing patterns or on Product to identify seasonal trends.
-    </p>
+<h2>Conclusion</h2>
+<p>
+Object-Oriented Analysis and Design (OOAD) serves as a bridge between <strong>software engineering methodologies</strong> and <strong>data management goals</strong>. When applied to Data Warehousing and Mining, OOAD ensures modularity, scalability, and maintainability—essential for sustainable project success. From a <strong>project management</strong> perspective, OOAD aligns technical design with business objectives, resulting in efficient planning, execution, and delivery of robust data-driven systems.
+</p>
 
-
-    <h2>Real-Life Applications of OOAD in Data Systems</h2>
-    <ul>
-      <li><strong>Data Modeling:</strong> Classes map to data warehouse schema tables or dimensions.</li>
-      <li><strong>ETL Process:</strong> Object-oriented design defines reusable classes for data extraction, transformation, and loading.</li>
-      <li><strong>Data Mining Algorithms:</strong> Decision trees, clustering, association rules can be implemented using OO structures.</li>
-      <li><strong>Business Intelligence Dashboards:</strong> OOAD organizes backend logic for analytics tools by defining relationships for data retrieval.</li>
-      <li><strong>Big Data Systems:</strong> OOAD principles guide creation of reusable modules for distributed processing in Hadoop/Spark environments.</li>
-    </ul>
-
-
-    <h2>Importance of OOAD in Data Warehousing & Mining</h2>
-    <ul>
-      <li><strong>Reusability:</strong> Promotes reusable components across models and applications.</li>
-      <li><strong>Maintainability:</strong> Changes in one class don't disrupt the entire system.</li>
-      <li><strong>Scalability:</strong> Modular design supports growing data volumes.</li>
-      <li><strong>Consistency:</strong> Unified models ensure design and workflow consistency.</li>
-      <li><strong>Efficiency:</strong> Object models reduce redundancy and improve query/mining performance.</li>
-    </ul>
-
-
-    <h2>Conclusion</h2>
-    <p>
-      Object-Oriented Analysis and Design (OOAD) has become essential in developing efficient, modular, and scalable data warehousing and mining systems. OOAD bridges the gap between data architecture and analytical processing, ensuring massive datasets can be organized and mined for insights. Integrating OOAD means adaptability, precision, and long-term sustainability for modern data engineering and analytics.
-    </p>
   `
 },
 {
