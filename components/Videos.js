@@ -37,7 +37,7 @@ export default function Videos() {
       title: "Future of Cloud Security in Enterprises",
       subject: "Cybersecurity Principles and Practices",
       thumbnail: "/img/video-thumb-5.jpg",
-      youtubeUrl: "https://drive.google.com/file/d/1MDVDwIp_94uh4yG4j7BnRfT3UtWh9r_N/view",
+      youtubeUrl: "https://drive.google.com/file/d/1MDVDwIp_94uh4yG4j7BnRfT3UtWh9r_N/view?usp=drivesdk",
       author: "Jass Sangale"
     },
     {
