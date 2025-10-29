@@ -29,7 +29,7 @@ export default function Videos() {
       title: "Object-Oriented Analysis and Design",
       subject: "Software Engineering and Project Management",
       thumbnail: "/img/video-thumb-4.jpg",
-      youtubeUrl: "https://drive.google.com/file/d/19iAz77iTs14u6mSv5KJr-ggncvSpDnvd/view",
+      youtubeUrl: "https://drive.google.com/file/d/19iAz77iTs14u6mSv5KJr-ggncvSpDnvd/view?usp=drivesdk",
       author: "Jass Sangale"
     },
     {
@@ -45,7 +45,7 @@ export default function Videos() {
       title: "Dark Web Investigations: Tools and Techniques",
       subject: "Cyber Crime Investigation & Digital Forensics",
       thumbnail: "/img/video-thumb-3.jpg",
-      youtubeUrl: "https://drive.google.com/file/d/1EcTJmlFHbzjvXWq0uuAg8Wrg2usp4QnF/view?usp=drive_link",
+      youtubeUrl: "https://drive.google.com/file/d/1EcTJmlFHbzjvXWq0uuAg8Wrg2usp4QnF/view?usp=drivesdk",
       author: "Jass Sangale"
     }
   ];
