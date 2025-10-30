@@ -224,6 +224,144 @@ Object-Oriented Analysis and Design (OOAD) serves as a bridge between <strong>so
   `
 },
 {
+  slug: "vedic-maths-algebraic-expressions",
+  title: "Solving Algebraic Expressions using Vedic Sutras",
+  author: "Jass Sangale",
+  subject: "Vedic Mathematics",
+  desc: "Exploring ancient Indian mathematical techniques to simplify and solve algebraic expressions faster than traditional methods.",
+  videoUrl: "", // Optional - add if you have a video
+  content: `
+    <h2>Stage 1: Problem Identification</h2>
+    <h3>Case Framing & Conceptual Exploration</h3>
+    <p>In the field of mathematics, algebra plays a fundamental role in developing problem-solving, analytical, and logical thinking skills. However, many students experience difficulties in solving algebraic expressions due to the lengthy steps and complexity of traditional methods. Expanding and simplifying expressions like \\((x+2)(x+3)\\), or \\((a+b)^2-(a-b)^2\\) often become repetitive and time-consuming.</p>
+    
+    <p>To address this challenge, this self-learning project explores the application of <strong>Vedic Mathematics Sutras</strong> for solving algebraic expressions quickly and accurately. Vedic Mathematics, discovered by Jagadguru Swami Bharati Krishna Tirthaji Maharaj, is based on sixteen main sutras and thirteen sub-sutras derived from the ancient Indian scriptures known as the Atharva Veda. These sutras cover operations in arithmetic, algebra, geometry, and calculus, providing elegant shortcuts that simplify calculations.</p>
+    
+    <p>For this study, I focused on understanding and applying three primary sutras relevant to algebraic expressions:</p>
+    
+    <ol>
+      <li><strong>Urdhva-Tiryagbhyam Sutra (Vertically and Crosswise):</strong> This sutra helps in multiplying numbers or expressions by cross-multiplying and adding results. It is particularly useful for expanding binomials and trinomials.</li>
+      <li><strong>Nikhilam Sutra (All from 9 and the Last from 10):</strong> This sutra simplifies multiplication or subtraction when expressions are near a base (like 10, 100, etc.). It can be extended to simplify algebraic subtraction and factorization.</li>
+      <li><strong>Anurupye Shunyamanyat Sutra (If one is in ratio, the other is zero):</strong> This sutra is used to solve algebraic equations involving ratios and proportionality.</li>
+    </ol>
+    
+    <p>The main objective of this case study is to explore:</p>
+    <ul>
+      <li>How Vedic sutras can reduce the number of computation steps in algebraic problems</li>
+      <li>How they enhance mental speed and logical reasoning</li>
+      <li>How ancient Indian techniques remain relevant in modern mathematical education</li>
+    </ul>
+    
+    <p>This exploration helped bridge the gap between ancient knowledge systems and modern problem-solving approaches. It also highlighted how mathematics can be made more intuitive and enjoyable through pattern-based learning rather than rote memorization.</p>
+
+    <h2>Stage 2: Implementation and Solutions</h2>
+    <h3>Analytical Depth and Design Thinking</h3>
+    <p>To understand the practical application of the sutras, several algebraic expressions were selected and solved using both traditional and Vedic methods. The comparison helped analyze the difference in the number of steps, accuracy, and mental effort required.</p>
+
+    <h3>Sutra Applications</h3>
+    
+    <p><strong>(a) Urdhva-Tiryagbhyam Sutra – "Vertically and Crosswise"</strong></p>
+    <p>This sutra can be applied for expansion and multiplication of algebraic expressions.</p>
+    <p><em>Example 1:</em> Expand \\((x+3)(x+4)\\).</p>
+    <p><strong>Traditional Method:</strong><br/>
+    \\((x+3)(x+4) = x^2 + 7x + 12\\)</p>
+    
+    <p><strong>Vedic Method (Vertically and Crosswise):</strong></p>
+    <ul>
+      <li>Multiply vertically: \\(x \\times x = x^2\\)</li>
+      <li>Multiply crosswise and add: \\(x \\times 4 + 3 \\times x = 7x\\)</li>
+      <li>Multiply vertically again: \\(3 \\times 4 = 12\\)</li>
+    </ul>
+    <p>→ Final Answer: \\(x^2 + 7x + 12\\)</p>
+    <p>This method can also be applied to more complex binomials such as \\((x+5)(x+7)\\), producing results quickly without writing intermediate steps.</p>
+
+    <p><strong>(b) Nikhilam Sutra – "All from 9 and the Last from 10"</strong></p>
+    <p>This sutra simplifies calculations when expressions are near a base number (like 10, 100, etc.). It can be adapted for algebraic simplification and subtraction.</p>
+    <p><em>Example 2:</em> Simplify \\((100-x)(100-y)\\).</p>
+    <p>According to the Nikhilam Sutra,<br/>
+    \\((100-x)(100-y) = 100(100-x-y) + xy\\)</p>
+    <p>If \\(x=12, y=13\\):<br/>
+    \\(100(100-25) + 12 \\times 13 = 100(75) + 156 = 7656\\)</p>
+    <p>This technique shows how large calculations can be mentally handled through pattern-based logic, demonstrating Vedic efficiency.</p>
+
+    <p><strong>(c) Anurupye Shunyamanyat Sutra – "If One is in Ratio, the Other is Zero"</strong></p>
+    <p>This sutra helps solve equations involving ratios.</p>
+    <p><em>Example 3:</em> Solve \\(ax + by = a^2 + b^2\\) when \\(x : y = a : b\\).</p>
+    <p>By applying the sutra, we assume \\(x = ka\\) and \\(y = kb\\).</p>
+    <p>Substituting: \\(a(ka) + b(kb) = a^2 + b^2\\)<br/>
+    → \\(k(a^2 + b^2) = a^2 + b^2 \\Rightarrow k = 1\\).</p>
+    <p>Thus, \\(x = a\\) and \\(y = b\\).</p>
+    <p>This shortens what would otherwise require multi-step algebraic manipulation.</p>
+
+    <h3>Comparative Study</h3>
+    <p>The following table demonstrates the efficiency gains achieved through Vedic methods:</p>
+    <table style="width:100%; border-collapse: collapse; margin: 1.5rem 0;">
+      <tr style="background: rgba(0, 240, 255, 0.1); border-bottom: 2px solid #00F0FF;">
+        <th style="padding: 0.75rem; text-align: left; color: #00F0FF;">Type of Problem</th>
+        <th style="padding: 0.75rem; text-align: center; color: #00F0FF;">Traditional Steps</th>
+        <th style="padding: 0.75rem; text-align: center; color: #00F0FF;">Vedic Steps</th>
+        <th style="padding: 0.75rem; text-align: center; color: #00F0FF;">Time Saved</th>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <td style="padding: 0.75rem;">Binomial Expansion</td>
+        <td style="padding: 0.75rem; text-align: center;">3–4</td>
+        <td style="padding: 0.75rem; text-align: center;">2</td>
+        <td style="padding: 0.75rem; text-align: center;">~40%</td>
+      </tr>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <td style="padding: 0.75rem;">Algebraic Multiplication</td>
+        <td style="padding: 0.75rem; text-align: center;">4–5</td>
+        <td style="padding: 0.75rem; text-align: center;">2–3</td>
+        <td style="padding: 0.75rem; text-align: center;">~35%</td>
+      </tr>
+      <tr>
+        <td style="padding: 0.75rem;">Simplification & Substitution</td>
+        <td style="padding: 0.75rem; text-align: center;">3</td>
+        <td style="padding: 0.75rem; text-align: center;">1–2</td>
+        <td style="padding: 0.75rem; text-align: center;">~50%</td>
+      </tr>
+    </table>
+    
+    <p>The table shows that Vedic methods reduce both written and mental steps, promoting faster mental computation and logical reasoning.</p>
+
+    <h3>Tools and Resources Used</h3>
+    <ul>
+      <li><strong>Book Reference:</strong> Vedic Mathematics by Swami Bharati Krishna Tirthaji</li>
+      <li><strong>Online Platforms:</strong> YouTube tutorials on Vedic Algebra, Vedic Math Forum India</li>
+      <li><strong>Practice Material:</strong> Self-created problem sets and stepwise comparison charts</li>
+      <li><strong>Software (Optional):</strong> WolframAlpha used to verify algebraic results</li>
+    </ul>
+
+    <h3>Observations</h3>
+    <ul>
+      <li>The Vedic approach is systematic and visual, enabling faster recall and mental operation</li>
+      <li>Students can mentally expand and simplify expressions without writing every step</li>
+      <li>Vedic sutras strengthen the connection between logic and computation, improving problem-solving confidence</li>
+      <li>Repeated practice enhances mental flexibility and pattern recognition, which are key in higher mathematics and computer science</li>
+    </ul>
+    <p>This study demonstrates how ancient Indian mathematical intelligence still provides solutions to modern academic challenges.</p>
+
+    <h2>Stage 3: Conclusion</h2>
+    <h3>Case Reflection, Report, and Presentation</h3>
+    <p>Through this self-learning journey, I explored how Vedic Sutras can simplify algebraic expressions while enhancing mathematical thinking. Initially, solving expressions using conventional algebraic methods felt mechanical, involving repetitive steps. However, after studying and applying sutras like Urdhva-Tiryagbhyam and Nikhilam, I discovered a much faster, intuitive approach.</p>
+    
+    <p>The activity deepened my understanding of how mathematical efficiency can be achieved through pattern observation rather than rote learning. It also highlighted how Indian scholars developed techniques that remain relevant and powerful even today.</p>
+    
+    <p>Practicing these sutras over multiple weeks helped me:</p>
+    <ul>
+      <li>Strengthen my logical reasoning and mental math ability</li>
+      <li>Solve problems with reduced errors</li>
+      <li>Gain interest and confidence in algebraic problem-solving</li>
+      <li>Understand the deeper connection between numbers and logic as expressed in Vedic knowledge</li>
+    </ul>
+    
+    <p>Moreover, this learning process built self-discipline, curiosity, and independence. It encouraged me to think beyond the textbook and explore the philosophical beauty of mathematics.</p>
+    
+    <p>In future studies, I aim to apply Vedic methods to complex topics such as quadratic equations, simultaneous equations, and even coding logic simplifications. The knowledge gained from this activity will also be valuable in aptitude tests, competitive exams, and teaching others the ancient wisdom of Vedic Mathematics.</p>
+  `
+},
+
+{
   slug: "ethical-privacy-data-mining",
   title: "Ethical Issues and Privacy Concerns in Data Mining",
   author: "Jass Sangale",

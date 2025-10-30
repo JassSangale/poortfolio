@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-
 const articles = [
   {
     slug: "finite-automata-text-search",
@@ -12,12 +11,19 @@ const articles = [
     desc: "Exploring how finite automata theory applies to text processing and pattern matching.",
   },
   {
-  slug: "ethical-privacy-data-mining",
-  title: "Ethical Issues and Privacy Concerns in Data Mining",
-  author: "Jass Sangale",
-  subject: "Data Warehousing & Mining",
-  desc: "Balancing data mining benefits with ethical responsibility and privacy protection in today's digital era.",
-},
+    slug: "ethical-privacy-data-mining",
+    title: "Ethical Issues and Privacy Concerns in Data Mining",
+    author: "Jass Sangale",
+    subject: "Data Warehousing & Mining",
+    desc: "Balancing data mining benefits with ethical responsibility and privacy protection in today's digital era.",
+  },
+  {
+    slug: "vedic-maths-algebraic-expressions",
+    title: "Solving Algebraic Expressions using Vedic Sutras",
+    author: "Jass Sangale",
+    subject: "Vedic Mathematics",
+    desc: "Exploring ancient Indian mathematical techniques to simplify and solve algebraic expressions faster than traditional methods.",
+  },
   {
     slug: "dark-web-investigations",
     title: "Dark Web Investigations: Tools, Techniques, and Challenges",
@@ -30,7 +36,7 @@ const articles = [
     title: "Object-Oriented Analysis and Design",
     author: "Jass Sangale",
     subject: "Software Engineering and Project Management",
-    desc: "Explore how OOAD principles streamline the design,  modular, and scalable.",
+    desc: "Explore how OOAD principles streamline the design, modular, and scalable.",
   },
   {
     slug: "future-cloud-security-enterprises",
@@ -40,7 +46,6 @@ const articles = [
     desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
   }
 ];
-
 
 export default function Articles() {
   return (
