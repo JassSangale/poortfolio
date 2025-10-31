@@ -50,7 +50,13 @@ export default function Videos() {
     },
     {
   id: 7,  // Use the next available numeric id
-  title: "Object-Oriented Analysis and Design: How OOAD Principles Streamline Design, Modularity, and Scalability",
+  title: "Courses
+
+Department of Cyber Security
+
+presentation
+
+- Software Engineering & Software Project Management",
   subject: "Software Engineering and Project Management",
   thumbnail: "/img/video-thumb-7.jpg",  // Add an appropriate thumbnail to your /public/img/ directory
   youtubeUrl: "https://drive.google.com/file/d/1-fE6k4fN8D3eUzZIZ7X1AuCEb_2bDY8w/view?usp=drivesdk",    // Replace with the actual URL (YouTube or Drive)
