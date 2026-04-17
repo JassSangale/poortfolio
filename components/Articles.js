@@ -51,8 +51,7 @@ const articles = [
     author: "Jass Sangale",
     subject: "Penetration  Testing Tools and Techniques and Compliance",
     desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
-    date: "April 17, 2026",
-    isNew: true
+   
   }
 ];
 
