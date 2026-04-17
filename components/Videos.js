@@ -47,19 +47,7 @@ export default function Videos() {
       thumbnail: "/img/video-thumb-3.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1EcTJmlFHbzjvXWq0uuAg8Wrg2usp4QnF/view?usp=drivesdk",
       author: "Jass Sangale"
-    },
-    {
-  id: 7,  // Use the next available numeric id
-  
-
-
-
-title: "Software Engineering & Software Project Management",
-  subject: "Software Engineering and Project Management",
-  thumbnail: "/img/video-thumb-7.jpg",  // Add an appropriate thumbnail to your /public/img/ directory
-  youtubeUrl: "https://drive.google.com/file/d/1-fE6k4fN8D3eUzZIZ7X1AuCEb_2bDY8w/view?usp=drivesdk",    // Replace with the actual URL (YouTube or Drive)
-  author: "Jass Sangale"
-}
+    }
 
   ];
 
