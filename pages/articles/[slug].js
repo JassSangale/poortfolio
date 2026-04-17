@@ -415,7 +415,7 @@ Object-Oriented Analysis and Design (OOAD) serves as a bridge between <strong>so
     <p>Data mining is a powerful tool that drives innovation, efficiency, and strategic decision-making. However, as its influence grows, so do the ethical and privacy challenges it presents. Protecting individual rights, ensuring informed consent, and maintaining data integrity are essential for sustainable and responsible data use.</p>
     <p>The future of data mining lies not just in technological advancement but in building a trustworthy and ethical data culture. By combining strong governance policies, privacy-preserving technologies, and moral responsibility, organizations can continue to harness the benefits of data mining while upholding the values of transparency, fairness, and respect for individual privacy.</p>
   `
-}
+},
 {
   slug: "blockchain-data-protection",
   title: "Role of Blockchain in Data Protection",
@@ -465,7 +465,7 @@ Object-Oriented Analysis and Design (OOAD) serves as a bridge between <strong>so
     <h2>Conclusion</h2>
     <p>Blockchain technology provides a secure, transparent, and tamper-proof approach to data protection. Despite its challenges, it holds immense potential in addressing modern cybersecurity threats. As digital transformation continues, blockchain will play a crucial role in safeguarding sensitive information and ensuring trust in digital ecosystems.</p>
   `
-},
+}
 
 ];
 
