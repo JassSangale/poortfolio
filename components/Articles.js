@@ -72,8 +72,8 @@ export default function Articles() {
             
             {/* ✅ TITLE + NEW BADGE */}
             <h3 className="font-tech text-xl text-accent mb-1">
-              {a.title}
-              {a.isNew && (
+              {a?.title}
+              {a?.isNew && (
                 <span className="ml-2 text-xs bg-accent text-black px-2 py-1 rounded-full">
                   NEW
                 </span>
@@ -81,7 +81,7 @@ export default function Articles() {
             </h3>
 
             {/* ✅ DATE */}
-            {a.date && (
+            {a?.date && (
               <p className="text-xs text-textsecondary mb-2">
                 {a.date}
               </p>
