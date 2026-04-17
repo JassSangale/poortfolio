@@ -46,13 +46,14 @@ const articles = [
     desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
   },
   {
-    slug: "blockchain-data-protection",
-    title: "Role of Blockchain in Data Protection",
-    author: "Jass Sangale",
-    subject: "Penetration  a Testing Tools and Techniques and Compliance",
-    desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
-   
-  }
+  slug: "blockchain-data-protection",
+  title: "Role of Blockchain in Data Protection",
+  author: "Jass Sangale",
+  subject: "Penetration  a Testing Tools and Techniques and Compliance",
+  desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
+  date: "April 17, 2026",
+  isNew: true
+}
 ];
 
 export default function Articles() {
