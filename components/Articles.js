@@ -45,7 +45,7 @@ const articles = [
     subject: "Cyber Security Principles and Practices",
     desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
   },
-  {
+ {
   slug: "blockchain-data-protection",
   title: "Role of Blockchain in Data Protection",
   author: "Jass Sangale",
