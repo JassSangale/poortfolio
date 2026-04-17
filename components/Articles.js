@@ -45,15 +45,15 @@ const articles = [
     subject: "Cyber Security Principles and Practices",
     desc: "Exploring the future of cloud security with Zero Trust, AI-driven monitoring, confidential computing, and blockchain innovations for enterprise environments.",
   },
- {
-  slug: "blockchain-data-protection",
-  title: "Role of Blockchain in Data Protection",
-  author: "Jass Sangale",
-  subject: "Cyber Security and Practices",
-  desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
-  date: "April 17, 2026", // 👈 ADD THIS
-  isNew: true // 👈 OPTIONAL (for highlight)
-}
+  {
+    slug: "blockchain-data-protection",
+    title: "Role of Blockchain in Data Protection",
+    author: "Jass Sangale",
+    subject: "Cyber Security and Practices",
+    desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
+    date: "April 17, 2026",
+    isNew: true
+  }
 ];
 
 export default function Articles() {
@@ -69,11 +69,30 @@ export default function Articles() {
             whileHover={{ scale: 1.03 }}
             className="glass article-card p-6 rounded-xl transition-all hover-glow hover-scale"
           >
-            <h3 className="font-tech text-xl text-accent mb-2">{a.title}</h3>
+            
+            {/* ✅ TITLE + NEW BADGE */}
+            <h3 className="font-tech text-xl text-accent mb-1">
+              {a.title}
+              {a.isNew && (
+                <span className="ml-2 text-xs bg-accent text-black px-2 py-1 rounded-full">
+                  NEW
+                </span>
+              )}
+            </h3>
+
+            {/* ✅ DATE */}
+            {a.date && (
+              <p className="text-xs text-textsecondary mb-2">
+                {a.date}
+              </p>
+            )}
+
             <p className="text-textsecondary mb-2">{a.desc}</p>
+
             <div className="text-sm mb-2">
               <span className="font-tech text-accent">{a.subject}</span> | {a.author}
             </div>
+
             <Link
               href={`/articles/${a.slug}`}
               className="text-accent font-bold hover:underline"
