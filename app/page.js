@@ -4,10 +4,10 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Articles from "../components/Articles";
 import Videos from "../components/Videos";  // Import Videos component
+import ImagesSection from "../components/Images"; // Added Images component import
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-
 
 export default function Home() {
   return (
@@ -23,6 +23,7 @@ export default function Home() {
           <Projects />
           <Articles />
           <Videos />  {/* Videos section added here */}
+          <ImagesSection /> {/* Images section added here */}
           <Skills />
           <Contact />
         </main>

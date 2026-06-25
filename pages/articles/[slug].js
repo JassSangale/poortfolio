@@ -465,8 +465,191 @@ Object-Oriented Analysis and Design (OOAD) serves as a bridge between <strong>so
     <h2>Conclusion</h2>
     <p>Blockchain technology provides a secure, transparent, and tamper-proof approach to data protection. Despite its challenges, it holds immense potential in addressing modern cybersecurity threats. As digital transformation continues, blockchain will play a crucial role in safeguarding sensitive information and ensuring trust in digital ecosystems.</p>
   `
-}
+},
+{
+  slug: "siem-soc-tools-techniques",
+  title: "SIEM Tools & Techniques in Security Operations Center",
+  author: "Jass Sangale",
+  subject: "Cloud & Multi Cloud Security",
+  desc: "Understanding how SIEM systems enhance threat detection, monitoring, and incident response in a Security Operations Center.",
+  videoUrl: "",
+  content: `
+    <h2>Introduction</h2>
+    <p>In today’s rapidly evolving digital environment, organizations face a growing number of cyber threats ranging from malware attacks to data breaches and insider threats. To effectively monitor and defend against these threats, organizations rely on a Security Operations Center (SOC). A SOC is a centralized unit responsible for continuously monitoring, detecting, analyzing, and responding to cybersecurity incidents.</p>
+    <p>One of the most critical technologies used in a SOC is Security Information and Event Management (SIEM). SIEM systems provide real-time visibility into an organization’s IT infrastructure by collecting and analyzing security data from multiple sources. This article explores SIEM tools and techniques, their working principles, applications, and importance.</p>
 
+    <h2>Understanding SIEM</h2>
+    <p>Security Information and Event Management (SIEM) is a cybersecurity solution that combines two major functionalities: Security Information Management (SIM) and Security Event Management (SEM). SIM focuses on collecting and storing log data, while SEM provides real-time monitoring and event analysis.</p>
+    <p>SIEM systems gather data from various sources such as servers, firewalls, network devices, and applications. This data is then analyzed to detect unusual patterns or potential threats. By correlating multiple events, SIEM helps security analysts identify complex attacks that might otherwise go unnoticed.</p>
+
+    <h2>Working of SIEM</h2>
+    <p>The working of SIEM can be understood through the following steps:</p>
+    <ol>
+      <li><strong>Data Collection:</strong> Logs and security events are collected from multiple sources including endpoints, servers, firewalls, and applications.</li>
+      <li><strong>Normalization:</strong> The collected data is converted into a standardized format to ensure consistency.</li>
+      <li><strong>Correlation:</strong> SIEM systems analyze and correlate different events to identify suspicious patterns.</li>
+      <li><strong>Alert Generation:</strong> When a potential threat is detected, alerts are generated for SOC analysts.</li>
+      <li><strong>Visualization:</strong> Dashboards and reports provide real-time insights into security events.</li>
+    </ol>
+
+    <h2>Key SIEM Tools</h2>
+    <p>Several SIEM tools are widely used in modern SOC environments:</p>
+    <ul>
+      <li><strong>Splunk:</strong> Known for powerful log analysis and visualization capabilities.</li>
+      <li><strong>IBM QRadar:</strong> Provides advanced threat detection and compliance management.</li>
+      <li><strong>ArcSight:</strong> Offers real-time event correlation and monitoring.</li>
+      <li><strong>LogRhythm:</strong> Combines SIEM with automation features.</li>
+      <li><strong>Elastic Security (ELK Stack):</strong> Open-source solution for log analysis and monitoring.</li>
+    </ul>
+
+    <h2>Techniques Used in SIEM</h2>
+    <ol>
+      <li><strong>Log Analysis:</strong> Continuous monitoring of logs to detect anomalies such as unusual login attempts or unauthorized access.</li>
+      <li><strong>Event Correlation:</strong> Linking multiple events to identify potential threats, such as repeated failed login attempts from different locations.</li>
+      <li><strong>Threat Intelligence Integration:</strong> Using external threat feeds to identify known malicious IPs and domains.</li>
+      <li><strong>User Behavior Analytics (UEBA):</strong> Detecting insider threats by analyzing deviations from normal user behavior.</li>
+      <li><strong>Automation and Response:</strong> Automatically triggering actions like blocking IPs or sending alerts.</li>
+    </ol>
+
+    <h2>Real-Life Example</h2>
+    <p>Consider a scenario where an attacker attempts a brute force attack on a user account. The SIEM system collects logs showing multiple failed login attempts. It correlates these events and identifies abnormal behavior. An alert is generated, and the SOC analyst investigates the issue. The attacker’s IP address is then blocked, preventing further attempts.</p>
+
+    <h2>Applications of SIEM</h2>
+    <ul>
+      <li><strong>Banking:</strong> Detects fraudulent transactions and protects sensitive financial data.</li>
+      <li><strong>Healthcare:</strong> Secures patient records and prevents unauthorized access.</li>
+      <li><strong>E-commerce:</strong> Identifies suspicious user activity and prevents payment fraud.</li>
+      <li><strong>Government:</strong> Monitors cyber threats and protects national infrastructure.</li>
+    </ul>
+
+    <h2>Importance of SIEM in SOC</h2>
+    <ul>
+      <li><strong>Centralized Monitoring:</strong> Provides a unified view of all security events.</li>
+      <li><strong>Real-Time Detection:</strong> Enables faster identification of threats.</li>
+      <li><strong>Improved Incident Response:</strong> Reduces response time through alerts and automation.</li>
+      <li><strong>Compliance Support:</strong> Helps meet regulatory requirements like GDPR and ISO standards.</li>
+      <li><strong>Enhanced Visibility:</strong> Offers better insight into network activities.</li>
+    </ul>
+
+    <h2>Challenges of SIEM</h2>
+    <ul>
+      <li>High implementation and maintenance cost</li>
+      <li>Complex configuration and management</li>
+      <li>Large volume of data leading to overload</li>
+      <li>High number of false positives</li>
+    </ul>
+
+    <h2>Future Trends</h2>
+    <p>SIEM systems are evolving with advancements in technology. Integration with Artificial Intelligence (AI) and Machine Learning (ML) is improving threat detection accuracy. Cloud-based SIEM solutions offer scalability and flexibility, while integration with SOAR (Security Orchestration, Automation, and Response) enhances automation capabilities.</p>
+
+    <h2>Conclusion</h2>
+    <p>SIEM is a vital component of a modern Security Operations Center. It enables organizations to monitor security events, detect threats, and respond effectively. Despite challenges such as cost and complexity, its benefits in improving cybersecurity posture are significant. As cyber threats continue to evolve, SIEM systems will play an increasingly important role in ensuring organizational security and resilience.</p>
+  `
+},
+{
+  "slug": "post-quantum-cryptography-review",
+  "title": "Post-Quantum Cryptography: Literature Review and Research Gaps",
+  "author": "Jass Sangale",
+  "subject": "Cyber Security and Practices",
+  "desc": "Exploring quantum-resistant cryptographic techniques, their importance in future security, existing research gaps, and the need for awareness in secure communication systems.",
+  "videoUrl": "",
+  "content": `
+    <h2>Introduction</h2>
+    <p>In today’s digital era, secure communication is fundamental to protecting sensitive data across sectors such as banking, healthcare, and government systems. Current cryptographic systems rely heavily on mathematical problems that are difficult for classical computers to solve. However, with the rapid advancement of quantum computing, these traditional methods are at risk of becoming obsolete.</p>
+    <p>Post-Quantum Cryptography (PQC) has emerged as a solution to this growing concern. It focuses on developing cryptographic algorithms that are resistant to attacks from quantum computers, ensuring long-term data security.</p>
+
+    <h2>Understanding Post-Quantum Cryptography</h2>
+    <p>Post-Quantum Cryptography refers to cryptographic techniques designed to be secure against both classical and quantum computing attacks. Unlike quantum cryptography, which relies on quantum mechanics, PQC uses classical algorithms that can run on existing systems while providing enhanced security.</p>
+    <p>Traditional algorithms such as RSA and ECC depend on problems like integer factorization and discrete logarithms, which can be efficiently solved using quantum algorithms like Shor’s Algorithm. This creates an urgent need for alternative cryptographic approaches.</p>
+
+    <h2>Types of Post-Quantum Cryptographic Techniques</h2>
+    <ul>
+      <li><strong>Lattice-Based Cryptography:</strong> Offers strong security and efficiency, widely considered the most promising approach.</li>
+      <li><strong>Hash-Based Cryptography:</strong> Relies on the security of hash functions and is already well-understood.</li>
+      <li><strong>Code-Based Cryptography:</strong> Based on error-correcting codes, known for its robustness.</li>
+      <li><strong>Multivariate Cryptography:</strong> Uses complex polynomial equations, offering resistance to quantum attacks.</li>
+    </ul>
+
+    <h2>Literature Review Insights</h2>
+    <p>Recent studies highlight that lattice-based schemes provide a balance between security and performance, making them suitable for real-world applications. Research also indicates that while hash-based systems are secure, they often suffer from large signature sizes.</p>
+    <p>Organizations such as NIST are actively working on standardizing PQC algorithms, emphasizing the importance of transitioning to quantum-resistant systems.</p>
+
+    <h2>Research Gaps</h2>
+    <ul>
+      <li>Lack of real-world implementation and testing</li>
+      <li>High computational and storage requirements</li>
+      <li>Integration challenges with existing systems</li>
+      <li>Limited awareness among organizations</li>
+    </ul>
+
+    <h2>Research Writing Awareness</h2>
+    <p>Effective research writing plays a crucial role in communicating advancements in PQC. Researchers must focus on clarity, originality, and proper structuring of their work. This ensures that complex concepts are easily understood and can be applied in practical scenarios.</p>
+
+    <h2>Future Scope</h2>
+    <p>As quantum computing continues to evolve, the adoption of PQC will become essential. Future research should focus on optimizing algorithms, reducing overhead, and improving compatibility with existing systems. Increased awareness and education will also be key in ensuring a smooth transition.</p>
+
+    <h2>Conclusion</h2>
+    <p>Post-Quantum Cryptography is a critical step toward securing digital communication in the future. While challenges remain, ongoing research and standardization efforts are paving the way for practical implementation. Organizations must begin preparing now to safeguard their data against the emerging threat of quantum computing.</p>
+  `
+},
+{
+  "slug": "siem-tools-and-techniques-soc",
+  "title": "SIEM: The Brain of a Security Operations Center",
+  "author": "Jass Sangale",
+  "subject": "Security Operations Center: Tools & Techniques",
+  "desc": "Exploring how Security Information and Event Management (SIEM) systems collect, correlate, and analyze security events to detect threats, support SOC analysts, and enable rapid incident response.",
+  "videoUrl": "",
+  "content": `
+    <h2>Introduction</h2>
+    <p>Imagine a hospital where thousands of devices — heart monitors, lab machines, medication dispensers — are all generating data simultaneously. A nurse cannot watch every screen at once. Now imagine the same problem in an enterprise network, where hundreds of servers, firewalls, applications, and endpoints produce millions of log entries every single day. How does a security team make sense of all that noise and catch actual threats?</p>
+    <p>The answer is a SIEM — Security Information and Event Management. It is arguably the most important tool in a Security Operations Center (SOC), acting as the central nervous system that collects, correlates, and alerts on suspicious activity across an entire organization.</p>
+
+    <h2>What is SIEM?</h2>
+    <p>SIEM is a platform that performs two core functions: Security Information Management (SIM) — long-term storage and analysis of log data — and Security Event Management (SEM) — real-time monitoring and alerting on events. Together, they give analysts a unified view of their security posture.</p>
+    <p>In simple terms, a SIEM collects logs from every corner of your infrastructure, connects the dots between seemingly unrelated events, and raises an alert when those dots spell "attack."</p>
+
+    <h2>How SIEM Works — Architecture</h2>
+    <p>A SIEM operates in five stages: data collection, normalization, correlation, alerting, and response. Data sources such as firewalls, endpoints, web proxies, Active Directory, and cloud APIs feed logs into collection agents using protocols like Syslog or lightweight software agents. These raw logs are then parsed and mapped to a common schema through normalization, making events from different systems comparable. The normalized data flows into the correlation engine — the most critical component — which applies detection rules and machine learning models to identify patterns that indicate threats. When a rule fires, an alert is raised on the analyst dashboard and typically linked to a ticketing system or SOAR (Security Orchestration, Automation and Response) platform for action. A copy of all normalized data is simultaneously stored in long-term log storage for forensic investigation and compliance purposes.</p>
+
+    <h2>The Heart of SIEM: Correlation Rules</h2>
+    <p>Raw logs are useless without context. A single failed login is noise. But five failed logins across three different accounts from the same IP address in under 30 seconds is a credential-stuffing attack — and a correlation rule catches it automatically.</p>
+    <p>Correlation rules are essentially "if-then" logic applied to streams of events. Modern SIEMs also layer in machine learning to detect anomalies that rule-writers never anticipated. Some key examples include:</p>
+    <ul>
+      <li><strong>Brute-force detection:</strong> Five or more failed logins followed by one success for the same user within two minutes triggers a Critical alert.</li>
+      <li><strong>Account compromise with exfiltration:</strong> A login from a new country combined with a data export exceeding 100 MB in the same session raises an immediate Critical alert.</li>
+      <li><strong>Insider threat indicators:</strong> An admin account active outside business hours triggers a High severity alert for analyst review.</li>
+      <li><strong>Malware C2 communication:</strong> A DNS query to a known command-and-control domain flagged in threat intelligence feeds fires a Critical alert instantly.</li>
+      <li><strong>Lateral movement:</strong> An internal host scanning more than 100 IP addresses in rapid succession indicates internal reconnaissance and triggers a High alert.</li>
+      <li><strong>Persistence mechanisms:</strong> A new service account created followed by privilege escalation on the same host is flagged as a High severity event.</li>
+    </ul>
+
+    <h2>Real-Life Applications</h2>
+    <p>SIEM is deployed across virtually every industry where data security matters. In banking and finance, it monitors transactions and login patterns to catch fraudulent access to customer accounts in real time. In healthcare, it tracks who accesses patient records, detecting unauthorized access or compliance violations before formal audits occur. Manufacturing organizations use SIEM to watch the boundary between operational technology (OT) and IT networks, defending industrial control systems against ransomware that has historically shut down entire production lines. Retail and e-commerce companies rely on SIEM to detect point-of-sale malware and card-skimming scripts by correlating payment system logs. Cloud-native organizations ingest AWS CloudTrail, Azure Monitor, and GCP logs into their SIEM to flag misconfigurations and unauthorized API calls. Government agencies and national CERTs use SIEM to detect Advanced Persistent Threat (APT) activity targeting critical infrastructure.</p>
+
+    <h2>A Real Scenario: Catching an Attacker in Action</h2>
+    <p>The following example shows how a SIEM correlates three separate log entries — from three different systems — into a single actionable incident within minutes.</p>
+    <p>At 09:12, an employee clicks a phishing link. The web proxy log records a connection to a suspicious domain that is flagged in the threat intelligence feed. A Medium alert is raised. At 09:14, the endpoint detection log shows PowerShell launched with a Base64-encoded command on the same machine. The correlation rule fires and a High alert is raised. At 09:17, a new scheduled task is created on the same host and an outbound connection is established to the same suspicious IP seen in the proxy log. The SIEM correlates all three events from three different systems into one unified incident and escalates to Critical, paging the on-call SOC analyst. By 09:19, the analyst reviews the complete timeline in the SIEM dashboard, confirms the attack, and isolates the endpoint via an automated SOAR playbook — all within seven minutes of the initial phishing click.</p>
+    <p>Without SIEM, each of those three log entries would have sat in a different system — the proxy, the EDR, the Windows event log — possibly never reviewed together. The correlation is what transforms log data into actionable intelligence.</p>
+
+    <h2>Popular SIEM Platforms</h2>
+    <p>Several mature SIEM platforms are widely used across the industry today. Splunk Enterprise Security is known for its powerful search language (SPL) and wide integration ecosystem, available both on-premises and in the cloud. Microsoft Sentinel offers native Azure integration, KQL-based queries, and AI-driven threat detection as a fully cloud-native solution. IBM QRadar features a mature correlation engine designed for large enterprise environments. Elastic Security, built on the open-source ELK stack, is valued for its flexibility and lower cost of ownership. LogRhythm provides built-in SOAR capabilities and user and entity behavior analytics (UEBA) alongside its core SIEM functionality.</p>
+
+    <h2>Research Gaps and Challenges</h2>
+    <ul>
+      <li><strong>Alert fatigue:</strong> Poorly tuned SIEMs generate thousands of false positives daily, causing analysts to miss real threats buried in noise.</li>
+      <li><strong>Log coverage gaps:</strong> Organizations often fail to onboard all relevant log sources, creating blind spots attackers can exploit.</li>
+      <li><strong>Skill shortage:</strong> Effective SIEM operation requires experienced analysts who understand both the tool and attacker techniques — a skill set in short supply globally.</li>
+      <li><strong>Cloud and OT visibility:</strong> Many SIEM deployments struggle to adequately cover cloud-native environments and operational technology networks.</li>
+      <li><strong>Rule maintenance:</strong> Correlation rules must be continuously updated as attack techniques evolve; stale rules produce outdated detections.</li>
+    </ul>
+
+    <h2>Future Scope</h2>
+    <p>The next generation of SIEM is evolving toward what the industry calls SIEM 4.0 — platforms that natively integrate UEBA (User and Entity Behavior Analytics), SOAR automation, and threat intelligence enrichment into a single unified platform. AI-driven detection is reducing false positive rates by learning normal behavior baselines for every user and device. Extended Detection and Response (XDR) is emerging as a complementary or competing paradigm, offering deeper integration across endpoint, network, cloud, and identity layers. As attack surfaces continue to expand with cloud adoption and remote work, the role of SIEM in correlating telemetry from diverse environments will only grow in strategic importance.</p>
+
+    <h2>Conclusion</h2>
+    <p>SIEM is not just a tool — it is a discipline. A SIEM deployed without tuned correlation rules, comprehensive log sources, or trained analysts produces noisy, unusable alerts. The real value lies in the combination of good technology, thoughtful configuration, and skilled human analysts who know how to interpret what the system surfaces. For any organization serious about cybersecurity, implementing and continuously improving a SIEM is not optional — it is the operational foundation on which every other security control depends.</p>
+  `
+}
 ];
 
 

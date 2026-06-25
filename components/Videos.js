@@ -7,18 +7,17 @@ import Image from "next/image";
 export default function Videos() {
   // Array of videos with their details matching your article subjects
   const videos = [
-    {
+     {
       id: 1,
       title: "Finite Automata in Text Search and Pattern Matching",
       subject: "Theory of Computation and Compiler Design",
-      thumbnail: "/img/video-thumb-1.jpg", // Add your thumbnail images to public/img/
-      youtubeUrl: "https://youtu.be/Jor-4AE0QXo", // Replace with actual URL
+      thumbnail: "/img/video-thumb-1.jpg",
+      youtubeUrl: "https://youtu.be/Jor-4AE0QXo",
       author: "Jass Sangale"
     },
-    
     {
       id: 3,
-    title: "Ethical Issues and Privacy Concerns in Data Mining",
+      title: "Ethical Issues and Privacy Concerns in Data Mining",
       subject: "Data Warehousing & Mining",
       thumbnail: "/img/video-thumb-6.jpg",
       youtubeUrl: "https://youtu.be/QckuZhU6H7s",
@@ -47,9 +46,68 @@ export default function Videos() {
       thumbnail: "/img/video-thumb-3.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1EcTJmlFHbzjvXWq0uuAg8Wrg2usp4QnF/view?usp=drivesdk",
       author: "Jass Sangale"
+    },
+    {
+      id: 7,
+      title: "Post-Quantum Cryptography: Concepts and Research Gaps",
+      subject: "Cryptography and Network Security",
+      thumbnail: "/img/video-thumb-5.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1bNP-ouoMX4axYS3ogy_Ikk297r1Hq_wE/view?usp=sharing",
+      author: "Jass Sangale"
+    },
+    {
+    id: 8,
+      title: "Introduction to Cyber Security",
+      subject: "Cryptography and Network Security",
+      thumbnail: "/img/video-thumb-1.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1Lv5SNEpw3VXt5FfDjxf2QAVCgwQcfPUt/view?usp=sharing",
+      author: "Jass Sangale"
+    },
+    {
+      id: 9,
+      title: "Role of Blockchain in Data Protection",
+      subject: "Penetration Testing: Technique, Tools, And Compliance",
+      thumbnail: "/img/video-thumb-6.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1zm7o6NV1OOEpA-uR7SdZnenMeqaf7kbX/view?usp=sharing",
+    },
+    {
+      id: 10,
+      title: "Full Ethical Hacking & Penetration Testing Course",
+      subject: "Penetration Testing: Technique, Tools, And Compliance",
+      thumbnail: "/img/video-thumb-4.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1vKoQ9Bo1RWspHM5svR6PQf8OBjqXe2kN/view?usp=sharing",
+    },
+    {
+      id: 11,
+      title: "SIEM Tools & Techniques in Security Operations Centers",
+      subject: " Cloud & Multi Cloud Security",
+      thumbnail: "/img/video-thumb-3.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1IvraSgPYxxelrF2ZvQZYp4Sw-ub3uBJd/view?usp=sharing",
+    },
+    {
+      id: 12,
+      title: " AWS Certified Solutions Architect Associate-Infosys Springboard",
+      subject: " Cloud & Multi Cloud Security",
+      thumbnail: "/img/video-thumb-5.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1vKoQ9Bo1RWspHM5svR6PQf8OBjqXe2kN/view?usp=sharing",
+    },
+    {
+      id: 13,
+      title: "SIEM: The Brain of a Security Operations Center",
+      subject: "Security Operations Center: Tools & Techniques",
+      thumbnail: "/img/video-thumb-1.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1hJ2yT2dzpxS2CE1hxW47UQZmetWAUDH0/view?usp=sharing",
+    },
+    {
+      id: 14,
+      title: "531 Incident Response KSAT Intermediate-NCWF Journey",
+       subject: "Security Operations Center: Tools & Techniques",
+      thumbnail: "/img/video-thumb-6.jpg",
+      youtubeUrl: "https://drive.google.com/file/d/1AYr0HPGgv4T40bI04Gk_qhEsI4ncFIPa/view?usp=sharing",
     }
-
   ];
+
+
 
 
   return (

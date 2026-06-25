@@ -53,7 +53,35 @@ const articles = [
   desc: "Exploring how blockchain enhances data protection through decentralization, encryption, immutability, and secure data sharing.",
   date: "April 17, 2026",
   isNew: true
+},
+{
+  slug: "siem-soc-tools-techniques",
+  title: "SIEM Tools & Techniques in Security Operations Center",
+  author: "Jass Sangale",
+  subject: "Cloud & Multi Cloud Security",
+  desc: "Understanding how SIEM systems enable real-time monitoring, threat detection, and incident response in modern SOC environments.",
+  date: "April 20, 2026",
+  isNew: true
+},
+{
+  "slug": "post-quantum-cryptography-review",
+  "title": "Post-Quantum Cryptography: Literature Review and Research Gaps",
+  "author": "Jass Sangale",
+  "subject": "Cryptography and Network Security",
+  "desc": "A study of quantum-resistant cryptographic techniques, highlighting current research trends, challenges, and the need for awareness in secure future systems.",
+  "date": "April 20, 2026",
+  "isNew": true
+},
+{
+  "slug": "siem-tools-and-techniques-soc",
+  "title": "SIEM: The Brain of a Security Operations Center",
+  "author": "Jass Sangale",
+  "subject": "Security Operations Center: Tools & Techniques",
+  "desc": "Exploring how Security Information and Event Management (SIEM) systems collect, correlate, and analyze security events to detect threats, support SOC analysts, and enable rapid incident response.",
+  "date": "April 19, 2026",
+  "isNew": true
 }
+
 ];
 
 export default function Articles() {
