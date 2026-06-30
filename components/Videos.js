@@ -7,8 +7,15 @@ import Image from "next/image";
 export default function Videos() {
   // Array of videos with their details matching your article subjects
   const videos = [
+    {
+    id: 1,
+    title: "Cloud Load Balancing: Enhancing Performance, Scalability & Availability",
+    subject: "Cloud Infrastructure",
+    thumbnail: "/img/video-thumb-6.jpg",
+    youtubeUrl: "https://drive.google.com/file/d/1Uq6ouQWjfeIEsKCeTbDEZqBnKZPQygyK/view?usp=sharing",
+    },
      {
-      id: 1,
+      id: 2,
       title: "Finite Automata in Text Search and Pattern Matching",
       subject: "Theory of Computation and Compiler Design",
       thumbnail: "/img/video-thumb-1.jpg",
@@ -56,7 +63,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-    id: 8,
+      id: 8,
       title: "Introduction to Cyber Security",
       subject: "Cryptography and Network Security",
       thumbnail: "/img/video-thumb-1.jpg",
@@ -105,6 +112,9 @@ export default function Videos() {
       thumbnail: "/img/video-thumb-6.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1AYr0HPGgv4T40bI04Gk_qhEsI4ncFIPa/view?usp=sharing",
     }
+    
+
+    
   ];
 
 
