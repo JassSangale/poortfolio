@@ -16,6 +16,14 @@ export default function Videos() {
     },
      {
       id: 2,
+      title: "Reflection (NPTEL Certifications)",
+      subject: "Cloud Infrastructure",
+      thumbnail: "/img/cloud.png",
+      youtubeUrl: "https://drive.google.com/file/d/1Xxk_egdk09XD96J1QJgzrsQy_ETP-Ou-/view?usp=sharing",
+      author: "Jass Sangale"
+    },
+     {
+      id: 3,
       title: "Finite Automata in Text Search and Pattern Matching",
       subject: "Theory of Computation and Compiler Design",
       thumbnail: "/img/video-thumb-1.jpg",
@@ -23,7 +31,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 3,
+      id: 4,
       title: "Ethical Issues and Privacy Concerns in Data Mining",
       subject: "Data Warehousing & Mining",
       thumbnail: "/img/video-thumb-6.jpg",
@@ -31,7 +39,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 4,
+      id: 5,
       title: "Object-Oriented Analysis and Design",
       subject: "Software Engineering and Project Management",
       thumbnail: "/img/video-thumb-4.jpg",
@@ -39,7 +47,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 5,
+      id: 6,
       title: "Future of Cloud Security in Enterprises",
       subject: "Cybersecurity Principles and Practices",
       thumbnail: "/img/video-thumb-5.jpg",
@@ -47,7 +55,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 6,
+      id: 7,
       title: "Dark Web Investigations: Tools and Techniques",
       subject: "Cyber Crime Investigation & Digital Forensics",
       thumbnail: "/img/video-thumb-3.jpg",
@@ -55,7 +63,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 7,
+      id: 8,
       title: "Post-Quantum Cryptography: Concepts and Research Gaps",
       subject: "Cryptography and Network Security",
       thumbnail: "/img/video-thumb-5.jpg",
@@ -63,7 +71,7 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 8,
+      id: 9,
       title: "Introduction to Cyber Security",
       subject: "Cryptography and Network Security",
       thumbnail: "/img/video-thumb-1.jpg",
@@ -71,42 +79,42 @@ export default function Videos() {
       author: "Jass Sangale"
     },
     {
-      id: 9,
+      id: 10,
       title: "Role of Blockchain in Data Protection",
       subject: "Penetration Testing: Technique, Tools, And Compliance",
       thumbnail: "/img/video-thumb-6.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1zm7o6NV1OOEpA-uR7SdZnenMeqaf7kbX/view?usp=sharing",
     },
     {
-      id: 10,
+      id: 11,
       title: "Full Ethical Hacking & Penetration Testing Course",
       subject: "Penetration Testing: Technique, Tools, And Compliance",
       thumbnail: "/img/video-thumb-4.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1vKoQ9Bo1RWspHM5svR6PQf8OBjqXe2kN/view?usp=sharing",
     },
     {
-      id: 11,
+      id: 12,
       title: "SIEM Tools & Techniques in Security Operations Centers",
       subject: " Cloud & Multi Cloud Security",
       thumbnail: "/img/video-thumb-3.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1IvraSgPYxxelrF2ZvQZYp4Sw-ub3uBJd/view?usp=sharing",
     },
     {
-      id: 12,
+      id: 13,
       title: " AWS Certified Solutions Architect Associate-Infosys Springboard",
       subject: " Cloud & Multi Cloud Security",
       thumbnail: "/img/video-thumb-5.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1vKoQ9Bo1RWspHM5svR6PQf8OBjqXe2kN/view?usp=sharing",
     },
     {
-      id: 13,
+      id: 14,
       title: "SIEM: The Brain of a Security Operations Center",
       subject: "Security Operations Center: Tools & Techniques",
       thumbnail: "/img/video-thumb-1.jpg",
       youtubeUrl: "https://drive.google.com/file/d/1hJ2yT2dzpxS2CE1hxW47UQZmetWAUDH0/view?usp=sharing",
     },
     {
-      id: 14,
+      id: 15,
       title: "531 Incident Response KSAT Intermediate-NCWF Journey",
        subject: "Security Operations Center: Tools & Techniques",
       thumbnail: "/img/video-thumb-6.jpg",
