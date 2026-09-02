@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex gap-4 justify-center mt-2">
         <a href="https://linkedin.com/in/jasssangale" className="text-accent hover-glow"><Linkedin size={22} /></a>
         <a href="https://github.com/JassSangale" className="text-accent hover-glow"><Github size={22} /></a>
-        <a href="mailto:jasssangale@gmail.com" className="text-accent hover-glow"><Mail size={22} /></a>
+        <a href="mailto:jass04sangle@gmail.com" className="text-accent hover-glow"><Mail size={22} /></a>
       </div>
     </footer>
   );

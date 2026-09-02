@@ -81,7 +81,7 @@ const articles = [
   "date": "April 19, 2026",
   "isNew": true
 }
-
+  
 ];
 
 export default function Articles() {

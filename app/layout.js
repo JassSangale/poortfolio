@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Providers } from "./providers";
-import Starfield from "@/components/Starfield"; // <-- add this import
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Neon UI",
-  description: "Futuristic cyber UI with Tailwind + Geist",
+  title: "Jass Sangale | Cybersecurity Portfolio",
+  description: "Portfolio of Jass Sangale, cybersecurity student and developer.",
 };
 
 export default function RootLayout({ children }) {
@@ -25,17 +24,8 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
       suppressHydrationWarning
-      style={{ "--background": "#000000", "--foreground": "#E6EEFF" }}
     >
-      {/* Tailwind fallback classes ensure black background immediately */}
-      <body className="antialiased bg-black text-[var(--foreground)]">
-        {/* Stars canvas behind all content */}
-        <Starfield
-          density={0.0015}        // adjust 0.001–0.002 for more/less stars
-          speed={0.06}            // 0.04–0.08 for gentle drift
-          color="200,120,255"     // soft violet tint to match your theme
-          maxAlpha={0.85}         // peak twinkle brightness
-        />
+      <body className="antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>

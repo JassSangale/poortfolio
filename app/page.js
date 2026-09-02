@@ -11,10 +11,8 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-[var(--background)] text-[var(--foreground)]">
-      {/* Make the overlay more transparent and keep it below content */}
-      <div className="pointer-events-none absolute inset-0 z-0 bg-cybergrid bg-grid opacity-20" />
-      {/* Ensure content sits above backgrounds */}
+    <div className="portfolio-shell min-h-screen relative overflow-hidden">
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[42rem] hero-wash" />
       <div className="relative z-10">
         <Navbar />
         <main>

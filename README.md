@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Contact form setup
+
+The contact form delivers messages to `jass04sangle@gmail.com` through [Resend](https://resend.com). Before deploying, add `RESEND_API_KEY` and `CONTACT_FROM_EMAIL` to your hosting provider's environment variables. `CONTACT_FROM_EMAIL` must use a domain verified in Resend. See `.env.example` for the expected values; do not commit your real API key.
+
 ## Getting Started
 
 First, run the development server:
